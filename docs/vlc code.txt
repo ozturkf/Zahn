@@ -1,0 +1,1 @@
+vlc.exe "pathtovideo" --video-filter=scene --vout=dummy --start-time=300 --stop-time=600 --scene-ratio=250 --scene-path=”pathtosaveimages” vlc://quit
