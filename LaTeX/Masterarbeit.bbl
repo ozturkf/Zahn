@@ -1,0 +1,25 @@
+\begin{thebibliography}{3}
+\newcommand{\enquotezwei}[1]{\glqq#1\grqq}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Canny(1986)}]{autor2}
+Canny, J. (1986): \enquotezwei{A {C}omputational {A}pproach to {E}dge
+  {D}etection}. \emph{IEEE Transactions on Pattern Analysis and Machine
+  Intelligence}, Bd. PAMI-8(6) S. 679--699,
+  \urlprefix\url{http://perso.limsi.fr/Individu/vezien/PAPIERS\_ACS/canny1986.pdf}.
+
+\bibitem[{Kerle und Pittschellis(2002)}]{autor1}
+Kerle, H. und Pittschellis, R. (2002): \emph{Einführung in die Getriebelehre}.
+  Teubner, 2. Aufl.
+
+\bibitem[{Rogers(2015)}]{rogers2015point}
+Rogers, G.~L. (2015): \enquotezwei{The point spread function and optical dot
+  gain}. \emph{Handbook of Digital Imaging}.
+
+\end{thebibliography}

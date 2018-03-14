@@ -1,0 +1,432 @@
+% Einstellung der Dokumentklasse für A4 und weitere Optionen
+\documentclass[a4paper, 12pt, bibliography=totoc, listof=totoc, parskip=half, numbers=noenddot, oneside]{scrreprt} % ONESIDE
+%\documentclass[a4paper, 12pt, bibliography=totoc, listof=totoc, parskip=half, numbers=noenddot, twoside]{scrreprt} % TWOSIDE
+
+% Mathematische Zeichen in der Überschrift werden ebenfalls fett gesetzt
+\addtokomafont{disposition}{\boldmath} 
+
+% scrhack ersetzt in den Packages hyperref, float und listings einige Makros für bessere KOMAScript-Kompatibilität (muss vor den betreffenden Packages aufgerufen werden)
+\usepackage[]{scrhack}
+
+% Deutsch nach neuer Rechtschreibung
+\usepackage[english, ngerman]{babel}
+
+% Automatische Ersetzung der Umlaute
+\usepackage[utf8]{inputenc}
+
+% Erweiterter Zeichensatz incl. Umlaute
+\usepackage[T1]{fontenc}
+
+%% Times als Schriftart
+%\usepackage{mathptmx}
+%\usepackage[scaled=.95]{helvet} 
+%\usepackage{courier}
+
+%% Latin Modern als Schriftart
+%\usepackage{lmodern}
+
+%% Arial bzw. Helvetica als Schriftart (excl. Formelsatz)
+%\renewcommand{\familydefault}{\sfdefault}
+%\usepackage{helvet}
+
+
+
+% Palatino als Schriftart
+\usepackage{mathpazo}
+\usepackage[scaled=.95]{helvet}
+\usepackage{courier}
+
+% Kopf- und Fußzeilen
+\usepackage[automark, headsepline]{scrpage2}
+
+% Kopf- und Fußzeile definieren
+\pagestyle{scrheadings}
+\renewcommand{\headfont}{\bfseries}
+\clearscrheadfoot
+\ohead{\headmark}                              
+\cfoot{\pagemark} % ONESIDE
+%\ofoot{\pagemark} % TWOSIDE
+
+% Einstellung der Seitenränder
+\usepackage[includeheadfoot]{geometry}
+
+%Seitenränder für A4
+\geometry{includeheadfoot, headsep=1.7cm, left=2.75cm, right=2.25cm, top=1.4cm, bottom=1.25cm, footskip=1.3cm, footnotesep=1cm}
+
+% Einstellen der Schriftgröße der Bildbeschriftungen
+\setkomafont{captionlabel}{\itshape}
+\setkomafont{caption}{\itshape}
+
+% Einstellen der Schriftarten der Überschriften
+\setkomafont{chapter}{\Large}
+\setkomafont{section}{\large}
+\setkomafont{subsection}{\large}
+
+%Umbruch in Formeln
+ \usepackage{eqnarray}
+ 
+ %Zellen farblich hervorheben in Tabellen
+ \usepackage{colortbl}
+
+
+% Abstand zwischen Bild und Beschriftung
+\setlength{\abovecaptionskip}{7pt}
+
+% Anpassen der Trennungs-/Umbruchparameter zum Verhindern von "overfull \hbox"
+\setlength\emergencystretch{3em}
+\tolerance=1000
+
+% Gliederungstiefe festlegen
+\setcounter{secnumdepth}{3} 
+\setcounter{tocdepth}{3} 
+
+% Formatierung von Inhalts- und Abbildungsverzeichnis
+\usepackage[titles]{tocloft}
+
+\cftsetpnumwidth{1.0cm}
+
+\setlength\cftchapnumwidth{0.8cm}
+\setlength\cftsecnumwidth{1.2cm}
+\setlength\cftsubsecnumwidth{1.5cm}
+\setlength\cftsubsubsecnumwidth{1.8cm}
+\setlength\cftfignumwidth{1.4cm}
+
+\setlength\cftchapindent{0cm}
+\setlength\cftsecindent{0.8cm}
+\setlength\cftsubsecindent{2.0cm}
+\setlength\cftsubsubsecindent{3.5cm}
+
+\renewcommand{\cftchapaftersnum}{}
+\renewcommand{\cftsecaftersnum}{}
+\renewcommand{\cftsubsecaftersnum}{}
+\renewcommand{\cftsubsubsecaftersnum}{}
+\renewcommand{\cftfigaftersnum}{}
+
+% Optischer Randausgleich 
+\usepackage{microtype}
+
+% Einbinden von Grafiken
+\usepackage{graphicx}
+
+% Silbentrennung in Überschriften
+\usepackage{ragged2e}
+\renewcommand*{\raggedsection}{\RaggedRight}     
+
+% Grafiken mit [H] als Parameter zwingend an der Aufrufstelle platzieren
+\usepackage{float}
+
+% E-TeX aktivieren, um mehr \dimens freizugeben
+%\usepackage{etex}
+
+% Ermöglicht segmentierte Matrizen
+\usepackage{easymat}
+
+% Formelsatz in fett
+\usepackage{bm}
+
+%\usepackage{floatrow}
+
+% Verhindert Einbinden von Grafiken vor ihrer Aufrufstelle
+\usepackage{flafter}
+
+% Mehrere Grafiken nebeneinander
+\usepackage{subcaption}
+
+
+% Schönerer Formelsatz
+\usepackage{amsmath, amssymb}
+% Komma als Dezimaltrennzeichen interpretieren
+\usepackage{icomma}
+
+% Zeichen für math. Transformationen
+\usepackage{trfsigns}
+
+% setspace für Längeneinstellungen mit \setlength usw.
+\usepackage{setspace}
+
+% Tabellensatz
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{Tabbing}
+\usepackage{longtable}
+\usepackage{ltablex}
+\usepackage{dcolumn} % Tabellenzeilen am Dezimalpunkt ausrichten
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}   % zentriert mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}  % rechtsbündig mit Breitenangabe
+
+% Listen/Aufzählungen mit Tabulatoren
+\usepackage{listliketab}
+\usepackage{paralist}
+
+% make enum items configurable
+\usepackage{enumitem}
+
+% Breite horizontale Linie mit \whline (benötigt booktabs)
+\newcommand\whline{\specialrule{1.5pt}{0pt}{0pt}}
+
+
+% Sonderzeichen und griechische Buchstaben im normalen Text
+\usepackage{textcomp}
+
+% Euro-Zeichen €
+\usepackage{eurosym}
+
+% Zahlen mit Einheiten setzen
+\usepackage{siunitx}
+% \usepackage{unitsdef}
+
+% Farbe im Dokument
+\usepackage{xcolor} 
+
+% Nummerierung von Nicht-Gleitobjekten
+% \usepackage{nonfloat, capt-of}
+
+% Formatierten Quellcode einbinden
+% \usepackage{listings, keyval}
+
+% Dirty Trick, um align-Umgebung in amsmath abkürzen zu können
+% (das obsolete eqnarray funktioniert aber mit newcommand)
+\def\beqar#1\eeqar{\begin{align*}#1\end{align*}}
+\def\beqarn#1\eeqarn{\begin{align}#1\end{align}}
+
+% Strafpunkte für Schusterjungen und Hurenkinder
+\clubpenalty = 1000
+\widowpenalty = 1000 
+\displaywidowpenalty = 1000
+
+% Grafiken werden erst ab 75% Seitenhöhe alleine auf eine float page gesetzt
+\renewcommand{\floatpagefraction}{0.75}
+
+% Floatobjekte, die alleine auf einer Seite stehen, werden nach oben statt vertikal zentriert gesetzt
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+
+% Theorem-Umgebung
+\usepackage{amsthm}
+% \newtheorem{Name der Umgebung}{Angezeigter Ausdruck}
+\newtheorem{Erkenntnis}{Erkenntnis}
+
+% Zitieren im Autor-Jahr-Schema
+\usepackage[numbers]{natbib}
+
+
+%Weitere Optionen für natdin_iwb.bst:
+\makeatletter
+\newcommand{\bibstyle@natdin}{%
+
+%Formatierung der Literaturverweise im Fließtext
+\bibpunct{(}{)}{;}{a}{}{,~}
+
+%Literaturverzeichnis: Labels fett / Zeilenumbruch nach Labels
+\gdef\NAT@biblabelnum##1{\textsc{\textbf{##1}}\\}} %
+
+\bibstyle@natdin
+
+% Einzug der Belege nach dem Label im Literaturverzeichnis
+\setlength{\bibhang}{7mm} 
+
+\makeatother
+
+
+% Kein Seitenumbruch von Fußnoten
+\interfootnotelinepenalty=10000
+
+% Rahmen mit \begin{frame} ... \end{frame}
+% \usepackage{framed}
+
+% Benutzung von Hintergründen
+%\usepackage{everyshi}
+%\usepackage{eso-pic}
+%\usepackage{calc}
+%\usepackage{ifthen}
+%\usepackage{wallpaper}
+
+% Anführungszeichen mit \enquote
+\usepackage[autostyle,german=guillemets]{csquotes}
+
+% Einbindung von PDF
+\usepackage{pdfpages}
+
+% landscape
+\usepackage{pdflscape}
+
+% Verfasser und Betreuer ausrichten
+\usepackage[absolute]{textpos}
+
+%Tabellen- und Abbildungsnummerierung ohne Kapitelnummer
+\usepackage{chngcntr}
+\counterwithout{figure}{section}
+\counterwithout{table}{section} 
+\counterwithout{equation}{section}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter} 
+\counterwithin{equation}{chapter}
+
+
+% Definition eigener Befehle/Abkürzungen
+\newcommand{\beq}{\begin{equation*}}
+\newcommand{\eeq}{\end{equation*}}
+\newcommand{\beqn}{\begin{equation}}
+\newcommand{\eeqn}{\end{equation}}
+\newcommand{\bssp}{\begin{spacing}{1}}
+\newcommand{\essp}{\end{spacing}}
+\newcommand{\nl}{\\[0,3cm]}
+\newcommand{\entspricht}{\mathrel{\widehat{=}}} 
+\newcommand{\diag}{\mathrm{diag}}
+\newcommand{\res}{\mathrm{res}}
+\newcommand{\ges}{\mathrm{ges}}
+\newcommand{\reduce}{\mathrm{red}}
+\newcommand{\tats}{\mathrm{tats}}
+\newcommand{\soll}{\mathrm{soll}}
+\newcommand{\abw}{\mathrm{abw}}
+\newcommand{\ber}{\mathrm{ber}}
+\newcommand{\Steuer}{\mathrm{Steuer}}
+\newcommand{\Aktor}{\mathrm{Aktor}}
+\newcommand{\Sensor}{\mathrm{Sensor}}
+\newcommand{\Eck}{\mathrm{Eck}}
+\newcommand{\Feder}{\mathrm{Feder}}
+\newcommand{\krit}{\mathrm{krit}}
+\newcommand{\theo}{\mathrm{theo}}
+\newcommand{\real}{\mathrm{real}}
+\newcommand{\Verst}{\textrm{Verstärker}}
+\newcommand{\grad}{\ensuremath{^\circ}}
+\newcommand{\iwb}{\textit{iwb} }
+
+
+%Alle Abkürzungen müssen im Abkürzungsverzeichnis erklärt werden!
+\newcommand{\zb}{z.\,B.}
+\newcommand{\og}{o.\,g.}
+\newcommand{\ua}{u.\,a.}
+\newcommand{\ie}{d.\,h.}
+\newcommand{\Dh}{D.\,h.}
+\newcommand{\zt}{z.\,T.}
+\newcommand{\zz}{z.\,Z.}
+\newcommand{\idr}{i.\,d.\,R.}
+
+%1,5-facher Zeilenabstand
+\onehalfspacing
+
+% Links im pdf-Dokument setzen (sollte ganz am Ende geladen werden!)
+\usepackage{hyperref}
+
+% Units verwenden
+\usepackage{units}
+
+\usepackage[miktex]{gnuplottex}
+
+% \def\acrobat{\hyperdef{jump}{here}{}}
+%Semi-automatic forward search
+%An much more useful solution would be to use the hyperref package:
+%
+%1. Make sure the hyperref package is loaded: \usepackage{hyperref}
+%
+%2. Define the following command: \def\acrobat{\hyperdef{jump}{here}{}}
+%
+%3. Change the "view project's output" and "forward search" DDE command (as described earlier on) to: command: [DocOpen("%bm.pdf")][FileOpen("%bm.pdf")][DocGoToNameDest("%bm.pdf","jump.here")]
+%
+%4. Use somewhere in the text (usually, where you are currently workingâ€¦) the new command \acrobat and, after (re)opening, the reader should jump to that location.
+%
+%Note that steps 1. and 2. have to be done in the header of your document. If you use pdfTeX, you should load the hyperref package via \usepackage[pdftex]{hyperref}; if you use dvips, load it using \usepackage[dvips]{hyperref}. If several \acrobat commands are issued, the reader always jumps to the "latest" one.
+
+%% URLs umbrechen (nach hyperref aufrufen!)
+%\usepackage{breakurl}
+
+% closing roots http://tex.stackexchange.com/questions/29834/closed-square-root-symbol#answer-29838
+\usepackage{letltxmacro}
+\makeatletter
+\let\oldr@@t\r@@t
+\def\r@@t#1#2{%
+\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+\LetLtxMacro{\oldsqrt}{\sqrt}
+\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
+\makeatother
+
+
+\usepackage{epstopdf}
+
+% http://ctan.org/pkg/adjustbox
+\usepackage[export]{adjustbox}
+
+% Listings
+\definecolor{lst_comment}{HTML}{008000}
+\definecolor{lst_string}{HTML}{A31515}
+\definecolor{lst_numbers}{HTML}{2B91AF}
+
+\usepackage{listings}
+\lstset{language = C++}
+
+ \lstset{
+   basicstyle=\scriptsize\ttfamily\scriptsize,
+   keywordstyle=\bfseries\ttfamily\color{blue},
+   stringstyle=\color{lst_string}\ttfamily,
+   commentstyle=\color{lst_comment}\ttfamily,
+	 %identifierstyle=\color{blue},
+   emph={square}, 
+   emphstyle=\color{blue}\texttt,
+   emph={[2]root,base},
+   emphstyle={[2]\color{yac}\texttt},
+   showstringspaces=true,
+   flexiblecolumns=false,
+   tabsize=4,
+   numbers=left,
+   numberstyle=\tiny\ttfamily\bfseries\color{lst_numbers},
+   numberblanklines=false,
+   stepnumber=1,
+   numbersep=6pt,
+   xleftmargin=17pt,
+	 breaklines = true,
+ }
+
+% Weist pdflatex an, die Ausgabe in pdf-Version 1.6 vorzunehmen.
+% Das vermeidet Fehler mit eingebundenen pdfs > v1.4
+\pdfminorversion=6
+
+
+\hypersetup{
+	pdfauthor={Vorname Nachname},
+	pdftitle={Titel der Arbeit},
+	pdfsubject={Studienarbeit an der TU München, Lehrstuhl MiMed, Garching},
+	pdfkeywords={{TUM}},
+	pdfborder={0 0 0},
+	pdfcreator={LaTeX}
+}
+
+%
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\numberwithin{equation}{section}
+\AtBeginDocument{\numberwithin{lstlisting}{section}}
+
+% take text in circles little bit lower to make it better looking
+
+\let\textcircledold\textcircled
+\let\textcircled\relax
+%\newcommand{\textcircled}[1]{\raisebox{.5pt}{\textcircledold{\raisebox{-.9pt} {#1}}}}
+
+\usepackage{tikz}
+\newcommand*\textcircled[1]{\tikz[baseline=(char.base)]{
+    \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+\usepackage{multicol}
+
+% Check if all labels are referenced
+%\usepackage{refcheck}
+
+%eigene Farben
+\definecolor{drot}{rgb}{0.5,0,0} 
+\definecolor{dgruen}{rgb}{0,0.5,0} 
+\definecolor{dblau}{rgb}{0,0,0.5}
+\definecolor{lila}{rgb}{0.5,0,0.5} 
+\definecolor{rosa}{rgb}{1,0,1} 
+\definecolor{dgelb}{rgb}{0.5,0.5,0} 
+\definecolor{turkis}{rgb}{0,1,1} 
+
+%fuer Matlab-Quellcode-Darstellung
+\usepackage[numbered,framed]{mcode}

@@ -1,0 +1,49 @@
+\input{header}
+
+\begin{document}
+
+\pagenumbering{Roman}
+
+\include{deckblatt}
+
+\include{erklaerung}
+
+\include{vorwort}
+
+% \include{aufgabenstellung}
+
+% Automatische Kolumnentitel
+\automark{chapter} % ONESIDE
+%\automark[section]{chapter} % TWOSIDE
+
+\cleardoublepage
+\tableofcontents
+%\chapter*{Inhaltsverzeichnis}
+%\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
+
+\cleardoublepage
+\pagenumbering{arabic}
+
+\include{einleitung}
+
+\include{eigeneransatz}
+
+\include{experiment}
+
+\include{ZusammenfassungAusblick}
+
+%Verhindern von Seitenumbrüchen innerhalb eines Eintrages im Literaturverzeichnis
+%\setlength{\bibsep}{2ex plus2ex minus.5ex}
+
+\cleardoublepage
+%\bibliographystyle{masterarbeit
+\bibliographystyle{eigenerBibStyleEN}
+\bibliography{literatur}
+
+\cleardoublepage
+\listoffigures
+
+%\include{Anhaenge}
+
+\end{document}
+
