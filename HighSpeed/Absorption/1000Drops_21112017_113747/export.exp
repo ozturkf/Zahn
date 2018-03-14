@@ -1,0 +1,24 @@
+[COMMENT]
+Comment=No comment entered.
+RecordAnnotation=
+[EXPORTINFO]
+Type=avi
+Name=1000Drops
+[CAMERA]
+Manufacturer=Mikrotron GmbH
+Model=MotionBLITZ EoSens mini2
+Framerate=525
+Shuttertime=70
+Serial=00122
+Firmware=B2.03-F0.84-V4.68
+[RECORD]
+StartTime=21.11.2017 11:31:44
+ImageCount=1701
+[IMAGEDESCRIPTION]
+ImageWidth=432
+ImageHeight=938
+ImageFormat=GRAY8
+[SEQUENCEINFORMATION]
+NumberofFrames_00=1701
+TriggerFrameNumber_00=-99
+TriggerRefTime_00=43750,83552

@@ -1,0 +1,24 @@
+[COMMENT]
+Comment=No comment entered.
+RecordAnnotation=
+[EXPORTINFO]
+Type=avi
+Name=Fr_100µm_2000fps_60degC_2
+[CAMERA]
+Manufacturer=Mikrotron GmbH
+Model=MotionBLITZ EoSens mini2
+Framerate=2000
+Shuttertime=234
+Serial=00122
+Firmware=B2.03-F0.84-V4.68
+[RECORD]
+StartTime=17.11.2017 15:09:56
+ImageCount=451
+[IMAGEDESCRIPTION]
+ImageWidth=432
+ImageHeight=938
+ImageFormat=GRAY8
+[SEQUENCEINFORMATION]
+NumberofFrames_00=451
+TriggerFrameNumber_00=-1749
+TriggerRefTime_00=21436,54464

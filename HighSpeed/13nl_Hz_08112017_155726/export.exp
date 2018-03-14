@@ -1,0 +1,24 @@
+[COMMENT]
+Comment=No comment entered.
+RecordAnnotation=
+[EXPORTINFO]
+Type=avi
+Name=13nl_Hz
+[CAMERA]
+Manufacturer=Mikrotron GmbH
+Model=MotionBLITZ EoSens mini2
+Framerate=3749
+Shuttertime=5
+Serial=00122
+Firmware=B2.03-F0.84-V4.68
+[RECORD]
+StartTime=08.11.2017 15:51:58
+ImageCount=501
+[IMAGEDESCRIPTION]
+ImageWidth=352
+ImageHeight=912
+ImageFormat=GRAY8
+[SEQUENCEINFORMATION]
+NumberofFrames_00=501
+TriggerFrameNumber_00=1774
+TriggerRefTime_00=7367,46304
