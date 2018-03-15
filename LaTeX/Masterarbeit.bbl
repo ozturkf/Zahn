@@ -11,12 +11,12 @@
 \bibitem[{Canny(1986)}]{autor2}
 Canny, J. (1986): \enquotezwei{A {C}omputational {A}pproach to {E}dge
   {D}etection}. \emph{IEEE Transactions on Pattern Analysis and Machine
-  Intelligence}, Bd. PAMI-8(6) S. 679--699,
+  Intelligence}, Vl. PAMI-8(6) PP. 679--699,
   \urlprefix\url{http://perso.limsi.fr/Individu/vezien/PAPIERS\_ACS/canny1986.pdf}.
 
-\bibitem[{Kerle und Pittschellis(2002)}]{autor1}
-Kerle, H. und Pittschellis, R. (2002): \emph{Einführung in die Getriebelehre}.
-  Teubner, 2. Aufl.
+\bibitem[{Kerle and Pittschellis(2002)}]{autor1}
+Kerle, H. and Pittschellis, R. (2002): \emph{Einführung in die Getriebelehre}.
+  Teubner, 2. Edt.
 
 \bibitem[{Rogers(2015)}]{rogers2015point}
 Rogers, G.~L. (2015): \enquotezwei{The point spread function and optical dot
