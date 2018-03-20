@@ -4,7 +4,6 @@ A level-1 auxiliary file: erklaerung.aux
 A level-1 auxiliary file: vorwort.aux
 A level-1 auxiliary file: einleitung.aux
 A level-1 auxiliary file: eigeneransatz.aux
-A level-1 auxiliary file: experiment.aux
 A level-1 auxiliary file: ZusammenfassungAusblick.aux
 The style file: eigenerBibStyleEN.bst
 list.label.output is an unknown function---line 1264 of file eigenerBibStyleEN.bst
@@ -12,4 +11,5 @@ item.check is an unknown function---line 1268 of file eigenerBibStyleEN.bst
 title.field is an unknown function---line 1269 of file eigenerBibStyleEN.bst
 field.used is an unknown function---line 1269 of file eigenerBibStyleEN.bst
 Database file #1: literatur.bib
+Warning--missing publisher in zirkonzahn2018
 (There were 4 error messages)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{4}
 \newcommand{\enquotezwei}[1]{\glqq#1\grqq}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -8,18 +8,20 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
-\bibitem[{Canny(1986)}]{autor2}
-Canny, J. (1986): \enquotezwei{A {C}omputational {A}pproach to {E}dge
-  {D}etection}. \emph{IEEE Transactions on Pattern Analysis and Machine
-  Intelligence}, Vl. PAMI-8(6) PP. 679--699,
-  \urlprefix\url{http://perso.limsi.fr/Individu/vezien/PAPIERS\_ACS/canny1986.pdf}.
-
-\bibitem[{Kerle and Pittschellis(2002)}]{autor1}
-Kerle, H. and Pittschellis, R. (2002): \emph{Einführung in die Getriebelehre}.
-  Teubner, 2. Edt.
-
 \bibitem[{Rogers(2015)}]{rogers2015point}
 Rogers, G.~L. (2015): \enquotezwei{The point spread function and optical dot
   gain}. \emph{Handbook of Digital Imaging}.
+
+\bibitem[{Shapling(2014)}]{sharpling2014}
+Shapling, W. (2014): \emph{Principles and Practice of Esthetic
+  Dentistry-E-Book: Essentials of Esthetic Dentistry}. Elsevier Health
+  Sciences.
+
+\bibitem[{VITA(2014)}]{vita}
+VITA (2014): \enquotezwei{Vita VMK Master, Working Instructions}.
+
+\bibitem[{Zirkonzahn(2018)}]{zirkonzahn2018}
+Zirkonzahn, G. (2018): \emph{Zirkonzahn Brochure}.
+  \urlprefix\url{http://zirkonzahn.com/assets/files/brochueren/DE-Broschuere-Die-Zirkonzahn-Schule-web.pdf}.
 
 \end{thebibliography}

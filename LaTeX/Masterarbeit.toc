@@ -6,19 +6,19 @@
 \contentsline {section}{\numberline {2.1}Drop Deployment}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Piezoelectric}{3}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Electromagnetic}{3}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Coloring behavior of the ceramic}{3}{section.2.2}
+\contentsline {section}{\numberline {2.2}Ceramic coloring}{3}{section.2.2}
 \contentsline {chapter}{\numberline {3}State of the Technology}{4}{chapter.3}
-\contentsline {chapter}{\numberline {4}Review of the State of the Art and Technology}{5}{chapter.4}
-\contentsline {chapter}{\numberline {5}Assignment}{6}{chapter.5}
-\contentsline {chapter}{\numberline {6}Expected Advantages and Functions of the Solution}{7}{chapter.6}
-\contentsline {chapter}{\numberline {7}Solution Structure}{8}{chapter.7}
-\contentsline {chapter}{\numberline {8}Solution Processes}{9}{chapter.8}
-\contentsline {chapter}{\numberline {9}Distinctive Features of the Solution}{10}{chapter.9}
-\contentsline {chapter}{\numberline {10}Experiments}{11}{chapter.10}
-\contentsline {section}{\numberline {10.1}1st Experiment}{11}{section.10.1}
-\contentsline {section}{\numberline {10.2}2nd Experiment}{11}{section.10.2}
-\contentsline {section}{\numberline {10.3}3rd Experiment}{11}{section.10.3}
-\contentsline {section}{\numberline {10.4}4th Experiment}{12}{section.10.4}
-\contentsline {chapter}{\numberline {11}Summary and Outlook}{13}{chapter.11}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{14}{chapter*.7}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{15}{chapter*.8}
+\contentsline {chapter}{\numberline {4}Review of the State of the Art and Technology}{6}{chapter.4}
+\contentsline {chapter}{\numberline {5}Assignment}{7}{chapter.5}
+\contentsline {chapter}{\numberline {6}Expected Advantages and Functions of the Solution}{8}{chapter.6}
+\contentsline {chapter}{\numberline {7}Solution Structure}{9}{chapter.7}
+\contentsline {chapter}{\numberline {8}Solution Processes}{10}{chapter.8}
+\contentsline {chapter}{\numberline {9}Distinctive Features of the Solution}{11}{chapter.9}
+\contentsline {chapter}{\numberline {10}Experiments}{12}{chapter.10}
+\contentsline {section}{\numberline {10.1}Material Properties}{12}{section.10.1}
+\contentsline {section}{\numberline {10.2}Absorption Time}{13}{section.10.2}
+\contentsline {section}{\numberline {10.3}Drop Size Selection}{13}{section.10.3}
+\contentsline {section}{\numberline {10.4}Point Spread Function}{14}{section.10.4}
+\contentsline {chapter}{\numberline {11}Summary and Outlook}{17}{chapter.11}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{18}{chapter*.16}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{19}{chapter*.17}
