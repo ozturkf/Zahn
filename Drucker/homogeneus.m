@@ -2,7 +2,7 @@ clear;clc; close all;
 width=10;
 depth=10;
 heigth=1;
-porosity=0.42;
+porosity=0.43;
 dropVolume=0.025;
 totalDropCount=width*depth*heigth*porosity/dropVolume;
 density = (0.1:0.1:1) ;
