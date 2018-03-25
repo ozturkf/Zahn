@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{11}
 \newcommand{\enquotezwei}[1]{\glqq#1\grqq}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -8,20 +8,63 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
+\bibitem[{Denry and Kelly(2008)}]{denry2008state}
+Denry, I. and Kelly, J.~R. (2008): \enquotezwei{State of the art of zirconia
+  for dental applications}. \emph{Dental materials}, Vl.~24(3) PP. 299--307.
+
+\bibitem[{Lee \emph{et~al.}(2016)Lee, Radu, Vontobel, Derome and
+  Carmeliet}]{lee2016absorption}
+Lee, J., Radu, A., Vontobel, P., Derome, D. and Carmeliet, J. (2016):
+  \enquotezwei{Absorption of impinging water droplet in porous stones}.
+  \emph{Journal of colloid and interface science}, Vl. 471 PP. 59--70.
+
+\bibitem[{Markicevic \emph{et~al.}(2009)Markicevic, Li, Sikorski, Zand, Sanders
+  and Navaz}]{markicevic2009infiltration}
+Markicevic, B., Li, H., Sikorski, Y., Zand, A., Sanders, M. and Navaz, H.
+  (2009): \enquotezwei{Infiltration time and imprint shape of a sessile droplet
+  imbibing porous medium}. \emph{Journal of colloid and interface science}, Vl.
+  336(2) PP. 698--706.
+
+\bibitem[{Pecho \emph{et~al.}(2015)Pecho, Ghinea, Ionescu, Cardona, Della~Bona
+  and del Mar~P{\'e}rez}]{pecho2015optical}
+Pecho, O.~E., Ghinea, R., Ionescu, A.~M., Cardona, J.~C., Della~Bona, A. and
+  del Mar~P{\'e}rez, M. (2015): \enquotezwei{Optical behavior of dental
+  zirconia and dentin analyzed by Kubelka--Munk theory}. \emph{Dental
+  Materials}, Vl.~31(1) PP. 60--67.
+
 \bibitem[{Rogers(2015)}]{rogers2015point}
 Rogers, G.~L. (2015): \enquotezwei{The point spread function and optical dot
   gain}. \emph{Handbook of Digital Imaging}.
+
+\bibitem[{Shah \emph{et~al.}(2008)Shah, Holloway and Denry}]{shah2008effect}
+Shah, K., Holloway, J. and Denry, I. (2008): \enquotezwei{Effect of coloring
+  with various metal oxides on the microstructure, color, and flexural strength
+  of 3Y-TZP}. \emph{Journal of Biomedical Materials Research Part B: Applied
+  Biomaterials}, Vl.~87(2) PP. 329--337.
 
 \bibitem[{Shapling(2014)}]{sharpling2014}
 Shapling, W. (2014): \emph{Principles and Practice of Esthetic
   Dentistry-E-Book: Essentials of Esthetic Dentistry}. Elsevier Health
   Sciences.
 
+\bibitem[{Starov \emph{et~al.}(2002{\natexlab{a}})Starov, Kosvintsev, Sobolev,
+  Velarde and Zhdanov}]{starov2002saturated}
+Starov, V., Kosvintsev, S., Sobolev, V., Velarde, M. and Zhdanov, S.
+  (2002{\natexlab{a}}): \enquotezwei{Spreading of liquid drops over saturated
+  porous layers}. \emph{Journal of colloid and interface science}, Vl. 246(2)
+  PP. 372--379.
+
+\bibitem[{Starov \emph{et~al.}(2002{\natexlab{b}})Starov, Zhdanov and
+  Velarde}]{starov2002thick}
+Starov, V., Zhdanov, S. and Velarde, M. (2002{\natexlab{b}}):
+  \enquotezwei{Spreading of liquid drops over thick porous layers: complete
+  wetting case}. \emph{Langmuir}, Vl.~18(25) PP. 9744--9750.
+
 \bibitem[{VITA(2014)}]{vita}
 VITA (2014): \enquotezwei{Vita VMK Master, Working Instructions}.
 
-\bibitem[{Zirkonzahn(2018)}]{zirkonzahn2018}
-Zirkonzahn, G. (2018): \emph{Zirkonzahn Brochure}.
+\bibitem[{{Zirkonzahn GmbH}(2018)}]{zirkonzahn2018}
+{Zirkonzahn GmbH} (2018): \emph{Zirkonzahn Brochure}.
   \urlprefix\url{http://zirkonzahn.com/assets/files/brochueren/DE-Broschuere-Die-Zirkonzahn-Schule-web.pdf}.
 
 \end{thebibliography}
