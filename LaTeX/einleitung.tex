@@ -63,10 +63,20 @@ L=L_0 (1+10(\frac{4}{\pi})^3 \frac{V^3 \gamma}{L_0^{10} \mu}\omega t)^{0.1}
 
 The formula 2.2 shows the parameters which define the diameter of the covered spot by a deployed drop on the saturated surface of the porous material. $L_0$ V are the measured initial diameter and volume of the drop. $\omega$ is defined as the effective lubrication coefficient and has to be acquired experimentally for each porous medium and impregnating liquid pair. The t as the last parameter of the equation stands for the time as usual. 
 
-The properties of the porous medium, such as its porosity, the size and the orientation of the pores and the chemical properties of the surface affect the impregnation and the dispersion behavior of the drops. The Washburn equation is employed by multiple authors to generate a model. These models are grounded on the existence of cylindrical capillaries lying parallel to each other. The Washburn equation describes the behavior of the drops by stating that the wetting is induced bu capillary pressure while the viscous dissipation of the flow causes resistance to the dissipation.
+According to Hapgood et al. the properties of the porous medium, such as its porosity, the size and the orientation of the pores and the chemical properties of the surface affect the impregnation and the dispersion behavior of the drops. The Washburn equation is employed by multiple authors to generate a model. These models are grounded on the existence of cylindrical capillaries lying parallel to each other. The Washburn equation describes the behavior of the drops by stating that the wetting is induced bu capillary pressure while the viscous dissipation of the flow causes resistance to the dissipation.
 
 The amount of time it takes for a drop to diffuse completely in the porous substrate, until there remains no more liquid on the surface is defined as the drop penetration time, also called as the wicking time.
 
+The fact that the parallel capillary pores assumption not being suitable for direct implementation for powder beds brings about a major disadvantage. To overcome this problem, the Kozeny approach, which utilizes an effective pore size nased on the properties of the powder, is widely applied. The 3D velocity components of a Newtonian fluid were measured in the porous medium model under the assumption that the flow is steady, viscous and incompressible. Glass rods with diameters of 3mm were used for building the models of porous media. Two of the velocity components were measured with a laser Doppler anemometer while the  continuity equation is integrated to calculate the third component. The main aim was to observe how the viscous drag, inertial flow field and eddy losses in the porous medium affect the flow. The study revealed a laminar and stable  flow, which brings along the conclusion  that a micromixing of the fluid does not exist. In addition, high values of viscous drag coefficients lead to non-existent inertial flow effects.
+
+Although the vertical and lateral velocity fields are observed  to have positive and negative  flow fields, the bulk direction flow fields did not have negative velocity fields. At the top and bottom layers, the vertical flow is found to be absent, based on the fact that the vertical components of the velocities at the top and bottom layers being equal to zero. The fluid advancing in the porous medium via an indirect path should not lead to the  conclusion that there exists a fluid mixing, as it is observed to be absent for the examined range of Reynolds numbers.\citep{hapgood2002drop}
+
+The diffusion of photons inside the porous medium on which the printing process is carried out, causes the Yule-Nielson effect. This effect is also referred to as optical dot gain and influences the half tone tonality significantly. Thus, it is essential that the Yule-Nielson effect is taken into account, when generating an accurate halftone reflectance model that predicts the halftone color.
+
+The photon diffusion within the porous medium causes the photons to exit the medium from a different spot than  where they  have entered. Estimating the absorption of light based only on the dot size might be inaccurate due to this phenomena. For instance, when a photon enters the medium from a spot that does  not contain ink and leave the medium from a spot that has ink, leading to higher absorption of light.
+An effective dot size which is greater than the actual dot size is used to compensate for this effect.
+
+The halftone tonality is greatly affected by optical dot gain a phenomena caused by the photon diffusion inside the medium. The point spread function (PSF) is one of the ways to model the optical dot gain. The derivation of an appropriate PSF is accomplished through solving the radiative transfer equation, which leads to a PSF in terms of the scattering and absorption coefficients of the medium. This PSD is then used for calculating the average diffusion distance of the photons inside medium. It is shown in the work of Rogers that the Z-sum, which can be expressed explicitly, can be estimated by $\mu^{-s}$, where $\mu$ is the fractional ink coverage and s has values between 0 and 1.  The interrelationship  between the PSF  approach and the probability approach is proven to be strong. \citep{rogers2015point}
 \section{Drop Deployment}
 
 
@@ -109,5 +119,5 @@ And the coloring part is the process, on which this thesis is focused.
 \end{figure}
 
 
-\chapter{Review of the State of the Art and Technology}
+\chapter{Review of the State of the Research and Technology}
 \label{sec:kritik_stand_technik}

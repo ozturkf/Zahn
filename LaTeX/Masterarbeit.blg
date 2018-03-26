@@ -11,9 +11,8 @@ item.check is an unknown function---line 1268 of file eigenerBibStyleEN.bst
 title.field is an unknown function---line 1269 of file eigenerBibStyleEN.bst
 field.used is an unknown function---line 1269 of file eigenerBibStyleEN.bst
 Database file #1: literatur.bib
-Repeated entry---line 149 of file literatur.bib
+Repeated entry---line 150 of file literatur.bib
  : @article{rogers2015point
  :                         ,
 I'm skipping whatever remains of this entry
-Warning--missing publisher in zirkonzahn2018
 (There were 5 error messages)

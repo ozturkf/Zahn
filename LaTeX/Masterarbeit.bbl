@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{12}
 \newcommand{\enquotezwei}[1]{\glqq#1\grqq}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -11,6 +11,12 @@
 \bibitem[{Denry and Kelly(2008)}]{denry2008state}
 Denry, I. and Kelly, J.~R. (2008): \enquotezwei{State of the art of zirconia
   for dental applications}. \emph{Dental materials}, Vl.~24(3) PP. 299--307.
+
+\bibitem[{Hapgood \emph{et~al.}(2002)Hapgood, Litster, Biggs and
+  Howes}]{hapgood2002drop}
+Hapgood, K.~P., Litster, J.~D., Biggs, S.~R. and Howes, T. (2002):
+  \enquotezwei{Drop penetration into porous powder beds}. \emph{Journal of
+  Colloid and Interface Science}, Vl. 253(2) PP. 353--366.
 
 \bibitem[{Lee \emph{et~al.}(2016)Lee, Radu, Vontobel, Derome and
   Carmeliet}]{lee2016absorption}
@@ -62,9 +68,10 @@ Starov, V., Zhdanov, S. and Velarde, M. (2002{\natexlab{b}}):
 
 \bibitem[{VITA(2014)}]{vita}
 VITA (2014): \enquotezwei{Vita VMK Master, Working Instructions}.
+  \urlprefix\url{https://mam.vita-zahnfabrik.com/portal/ecms_mdb_download.php?id=63578&sprache=en&fallback=de&rechtsraum=&cls_session_id=&neuste_version=1}.
 
 \bibitem[{{Zirkonzahn GmbH}(2018)}]{zirkonzahn2018}
-{Zirkonzahn GmbH} (2018): \emph{Zirkonzahn Brochure}.
+{Zirkonzahn GmbH} (2018): \enquotezwei{Zirkonzahn Brochure}.
   \urlprefix\url{http://zirkonzahn.com/assets/files/brochueren/DE-Broschuere-Die-Zirkonzahn-Schule-web.pdf}.
 
 \end{thebibliography}
