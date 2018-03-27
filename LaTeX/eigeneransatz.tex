@@ -19,7 +19,7 @@ One of the most important advantages is quantification of the coloring process f
 Another aspect to consider is the ink costs. Each of the ink bottles are labeled with the same price tag by the manufacturer. However not all of the ink bottles contain a material worth the same value actually. The shades of the colors ranging from 1 to 3.5 are only diluted versions of the bottle with the shade 4.0. Buying the most concentrated tone and diluting it is here an economical solution, as it is in every other section of the industry. Also, the whole spectrum of shades can be obtained with only 4 ink bottles and a brightener by halftone printing. The required purchase variety, transportation costs, and the space requirement are all reduced with the usage of only the most saturated shades.
 
 \chapter{Solution Structure}
-The structural concept is utilization of a 5-axis printing system. 4 base colors with the highest saturation (A,B,C and D4) are to be used with the brightener instead of 16 predefined shades. The amount of the brightener defines the shade of the color. A 3-axis table and the 2-axis nozzle holder are responsible for the coordination during the printing process.
+The structural concept is based on the utilization of a 5-axis printing system. A basic micro controller designed for the automation of the router systems is connected to stepper motors and encoders to control the coordinated printing processes. 4 base colors with the highest saturation levels (A,B,C and D4) are to be used with the brightener to color the dental zirconia, instead of 17 bottles consisting of 16 predefined shades plus the brightener. The amount of the brightener defines the shade of the color. So  first of all, the space requirement of the machine is reduced. The inks and the brightener are continuously fed into a rotary distribution valve and are in their neutral status not flowing in any direction. As soon as the rotary valve opens the gate of any incoming pipe,the flow is permitted to the droplet ejector.  
 \newline
 \begin{figure}[h]
 	\centering
@@ -27,6 +27,8 @@ The structural concept is utilization of a 5-axis printing system. 4 base colors
 	\caption{Solution Structure}
 	\label{fig:SolutionStructure}
 \end{figure} 
+\newline
+A serial communication between the controller and the rotary valve arranges the position of the rotary valve and the duration to hold on in that position. The required mixture is dosed and pulled by the droplet ejector and deployed through the nozzle, driven by the pressure difference between the ink bottles at the beginning of the cycle and the atmosphere. A 3-axis table and the 2-axis nozzle holder are responsible for the coordination of the flying drops and the point on the surface of the dental crown, where the drops need to land during the printing process.
 
 \chapter{Solution Processes}
 \label{sec:Lösungsprozesse}
