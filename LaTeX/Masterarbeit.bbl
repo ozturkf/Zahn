@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{15}
 \newcommand{\enquotezwei}[1]{\glqq#1\grqq}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -18,6 +18,10 @@ Hapgood, K.~P., Litster, J.~D., Biggs, S.~R. and Howes, T. (2002):
   \enquotezwei{Drop penetration into porous powder beds}. \emph{Journal of
   Colloid and Interface Science}, Vl. 253(2) PP. 353--366.
 
+\bibitem[{{IDS CAD}(2016)}]{idscad2016}
+{IDS CAD} (2016): \enquotezwei{Chang's liquid brochure}.
+  \urlprefix\url{https://www.idscad.com/wp-content/uploads/2016/11/liquid-brochure-1-1.pdf}.
+
 \bibitem[{Lee(2002)}]{lee2002microdrop}
 Lee, E.~R. (2002): \emph{Microdrop generation}, Vl.~5. CRC press.
 
@@ -33,6 +37,10 @@ Markicevic, B., Li, H., Sikorski, Y., Zand, A., Sanders, M. and Navaz, H.
   (2009): \enquotezwei{Infiltration time and imprint shape of a sessile droplet
   imbibing porous medium}. \emph{Journal of colloid and interface science}, Vl.
   336(2) PP. 698--706.
+
+\bibitem[{Nguyen and Wereley(2002)}]{nguyen2002fundamentals}
+Nguyen, N.-T. and Wereley, S.~T. (2002): \emph{Fundamentals and applications of
+  microfluidics}. Artech house.
 
 \bibitem[{Pecho \emph{et~al.}(2015)Pecho, Ghinea, Ionescu, Cardona, Della~Bona
   and del Mar~P{\'e}rez}]{pecho2015optical}
