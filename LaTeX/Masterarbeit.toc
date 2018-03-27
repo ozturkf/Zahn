@@ -3,22 +3,21 @@
 \contentsline {chapter}{\nonumberline Foreword}{III}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}State of the Research}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Drop Deployment}{7}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Piezoelectric}{7}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Electromagnetic}{7}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Ceramic coloring}{7}{section.2.2}
-\contentsline {chapter}{\numberline {3}State of the Technology}{8}{chapter.3}
-\contentsline {chapter}{\numberline {4}Review of the State of the Research and Technology}{10}{chapter.4}
-\contentsline {chapter}{\numberline {5}Assignment}{11}{chapter.5}
-\contentsline {chapter}{\numberline {6}Expected Advantages and Functions of the Solution}{12}{chapter.6}
-\contentsline {chapter}{\numberline {7}Solution Structure}{13}{chapter.7}
-\contentsline {chapter}{\numberline {8}Solution Processes}{14}{chapter.8}
-\contentsline {chapter}{\numberline {9}Distinctive Features of the Solution}{15}{chapter.9}
-\contentsline {chapter}{\numberline {10}Experiments}{16}{chapter.10}
-\contentsline {section}{\numberline {10.1}Material Properties}{16}{section.10.1}
-\contentsline {section}{\numberline {10.2}Absorption Time}{17}{section.10.2}
-\contentsline {section}{\numberline {10.3}Drop Size Selection}{18}{section.10.3}
-\contentsline {section}{\numberline {10.4}Point Spread Function}{18}{section.10.4}
-\contentsline {chapter}{\numberline {11}Summary and Outlook}{21}{chapter.11}
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{22}{chapter*.16}
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{24}{chapter*.17}
+\contentsline {section}{\numberline {2.1}Structure of the Porous Medium}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Ink Distribution and Infiltration Time}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Drop Deployment}{7}{section.2.3}
+\contentsline {chapter}{\numberline {3}State of the Technology}{9}{chapter.3}
+\contentsline {chapter}{\numberline {4}Review of the State of the Research and Technology}{11}{chapter.4}
+\contentsline {chapter}{\numberline {5}Assignment}{12}{chapter.5}
+\contentsline {chapter}{\numberline {6}Expected Advantages and Functions of the Solution}{13}{chapter.6}
+\contentsline {chapter}{\numberline {7}Solution Structure}{14}{chapter.7}
+\contentsline {chapter}{\numberline {8}Solution Processes}{15}{chapter.8}
+\contentsline {chapter}{\numberline {9}Distinctive Features of the Solution}{16}{chapter.9}
+\contentsline {chapter}{\numberline {10}Experiments}{17}{chapter.10}
+\contentsline {section}{\numberline {10.1}Material Properties}{17}{section.10.1}
+\contentsline {section}{\numberline {10.2}Absorption Time}{18}{section.10.2}
+\contentsline {section}{\numberline {10.3}Drop Size Selection}{19}{section.10.3}
+\contentsline {section}{\numberline {10.4}Point Spread Function}{19}{section.10.4}
+\contentsline {chapter}{\numberline {11}Summary and Outlook}{22}{chapter.11}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{23}{chapter*.16}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{25}{chapter*.17}

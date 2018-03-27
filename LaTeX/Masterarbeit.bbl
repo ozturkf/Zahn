@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \newcommand{\enquotezwei}[1]{\glqq#1\grqq}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -17,6 +17,9 @@ Denry, I. and Kelly, J.~R. (2008): \enquotezwei{State of the art of zirconia
 Hapgood, K.~P., Litster, J.~D., Biggs, S.~R. and Howes, T. (2002):
   \enquotezwei{Drop penetration into porous powder beds}. \emph{Journal of
   Colloid and Interface Science}, Vl. 253(2) PP. 353--366.
+
+\bibitem[{Lee(2002)}]{lee2002microdrop}
+Lee, E.~R. (2002): \emph{Microdrop generation}, Vl.~5. CRC press.
 
 \bibitem[{Lee \emph{et~al.}(2016)Lee, Radu, Vontobel, Derome and
   Carmeliet}]{lee2016absorption}
