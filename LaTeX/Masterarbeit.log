@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.13)  28 MAR 2018 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.13)  28 MAR 2018 23:24
 entering extended mode
 **./Masterarbeit.tex
 (Masterarbeit.tex
@@ -1962,9 +1962,9 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
 \verbatim@out=\write3
-runsystem(echo t > "w18-test-2018328126.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-20183281404.tex")...disabled (restricted).
 
-runsystem(del "w18-test-2018328126.tex")...disabled (restricted).
+runsystem(del "w18-test-20183281404.tex")...disabled (restricted).
 
 
 
@@ -2394,7 +2394,11 @@ Package: mcode 2014/03/06 2.5
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (Masterarbeit.aux (deckblatt.aux) (erklaerung.aux) (vorwort.aux)
-(einleitung.aux) (eigeneransatz.aux) (ZusammenfassungAusblick.aux))
+(einleitung.aux) (eigeneransatz.aux
+
+LaTeX Warning: Label `eq:watergamma' multiply defined.
+
+) (ZusammenfassungAusblick.aux))
 \openout1 = `Masterarbeit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -3134,92 +3138,89 @@ Package babel Info: Redefining ngerman shorthand "~
 <grafiken/PrototypeText.png, id=327, 395.076pt x 344.0052pt>
 File: grafiken/PrototypeText.png Graphic file (type png)
 <use grafiken/PrototypeText.png>
-Package pdftex.def Info: grafiken/PrototypeText.png  used on input line 82.
+Package pdftex.def Info: grafiken/PrototypeText.png  used on input line 83.
 (pdftex.def)             Requested size: 318.66948pt x 277.48262pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 89.
+(babel)             in language  on input line 90.
 [21
 
  <./grafiken/PrototypeText.png>]
 <grafiken/InkProps.jpg, id=334, 1090.0725pt x 695.59875pt>
 File: grafiken/InkProps.jpg Graphic file (type jpg)
 <use grafiken/InkProps.jpg>
-Package pdftex.def Info: grafiken/InkProps.jpg  used on input line 92.
+Package pdftex.def Info: grafiken/InkProps.jpg  used on input line 93.
 (pdftex.def)             Requested size: 364.19667pt x 232.39284pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 100.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 97.
-<grafiken/AbsorptionTime.jpg, id=335, 417.81094pt x 217.5628pt>
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 102.
+ [22 <./grafiken/InkProps.jpg>]
+
+LaTeX Warning: Reference `eq:viscosity' on page 23 undefined on input line 109.
+
+
+<grafiken/AbsorptionTime.jpg, id=341, 417.81094pt x 217.5628pt>
 File: grafiken/AbsorptionTime.jpg Graphic file (type jpg)
 <use grafiken/AbsorptionTime.jpg>
-Package pdftex.def Info: grafiken/AbsorptionTime.jpg  used on input line 103.
+Package pdftex.def Info: grafiken/AbsorptionTime.jpg  used on input line 122.
 (pdftex.def)             Requested size: 364.19667pt x 189.65656pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 127.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 108.
-<grafiken/DropSize.jpg, id=336, 274.02374pt x 556.32843pt>
+(babel)             in language  on input line 127.
+<grafiken/DropSize.jpg, id=342, 274.02374pt x 556.32843pt>
 File: grafiken/DropSize.jpg Graphic file (type jpg)
 <use grafiken/DropSize.jpg>
-Package pdftex.def Info: grafiken/DropSize.jpg  used on input line 112.
+Package pdftex.def Info: grafiken/DropSize.jpg  used on input line 131.
 (pdftex.def)             Requested size: 172.99498pt x 351.2273pt.
-<grafiken/SpotArea.jpg, id=337, 1624.0675pt x 926.46124pt>
+<grafiken/SpotArea.jpg, id=343, 1624.0675pt x 926.46124pt>
 File: grafiken/SpotArea.jpg Graphic file (type jpg)
 <use grafiken/SpotArea.jpg>
-Package pdftex.def Info: grafiken/SpotArea.jpg  used on input line 119.
+Package pdftex.def Info: grafiken/SpotArea.jpg  used on input line 138.
 (pdftex.def)             Requested size: 455.24411pt x 259.69011pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 123.
-[22 <./grafiken/InkProps.jpg>]
+(babel)             in language  on input line 142.
+[23 <./grafiken/AbsorptionTime.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 143.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 128.
-[23 <./grafiken/AbsorptionTime.jpg>])
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
- [24 <./grafiken/DropSize.jpg>]
+(babel)             in language  on input line 147.
+[24 <./grafiken/DropSize.jpg>])
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3231,7 +3232,8 @@ Package babel Info: Redefining ngerman shorthand "~
  [25 <./grafiken/SpotArea.jpg>]
 \openout2 = `ZusammenfassungAusblick.aux'.
 
- (ZusammenfassungAusblick.tex
+
+(ZusammenfassungAusblick.tex
 chapter 11.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 10.
@@ -3349,12 +3351,19 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 150EAC448151BAD55A34EBBD700F8DFB;1401.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 40815 strings out of 493303
- 771116 string characters out of 3138853
- 943969 words of memory out of 3000000
- 43292 multiletter control sequences out of 15000+200000
+ 40819 strings out of 493303
+ 771172 string characters out of 3138853
+ 944055 words of memory out of 3000000
+ 43294 multiletter control sequences out of 15000+200000
  587292 words of font info for 237 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,97p,10444b,1027s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3366,9 +3375,9 @@ rier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Masterarbeit.pdf (34 pages, 3502841 bytes).
+Output written on Masterarbeit.pdf (34 pages, 3505541 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
  40717 words of extra memory for PDF output out of 42996 (max. 10000000)
 

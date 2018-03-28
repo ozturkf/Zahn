@@ -60,7 +60,7 @@ The process concept is realized in three stages. Each stage depends on the previ
  \end{equation}
  \bigskip
  
- The maximum distance of the nozzle to the zirconia surface has to be limited. The projectile of the droplets are not perfectly identical. There is a deviation of the impact point, because of the factors like a slight change of the nozzle escape angle of an arbitrary droplet or drag caused by the spontaneous fluctuation of the air flow inside the printing chamber. The longer the fly distance of the droplets are, the less accurately they will meet the same point. So the deployment distance for the droplets should be as short as possible. However on the otherside the geometri of the crown creates the second boundary of the problematic. The concave structures on the upper side of the teeth carrying out the chewing function pose a collision danger with the nozzle. This is a situation where the printing angle is also influential. 
+ The maximum distance of the nozzle to the zirconia surface has to be limited. The projectile of the droplets are not perfectly identical. There is a deviation of the impact point, because of the factors like a slight change of the nozzle escape angle of an arbitrary droplet or drag caused by the spontaneous fluctuation of the air flow inside the printing chamber. The longer the fly distance of the droplets are, the less accurately they will meet the same point. So the deployment distance for the droplets should be as short as possible. However on the other side the geometry of the crown creates the second boundary of the problematic. The concave structures on the upper side of the teeth carrying out the chewing function pose a collision danger with the nozzle. This is a situation where the printing angle is also influential. 
  
  The aspects to be considered under the third stage are employed to conduct an experimental approach to color and shade acquisition. In order to arrive there some parameters have to be determined. Firstly the appropriate trace distance for the selected drop size is to be concluded, depending on the experiment with varying trace distances, which is the distance between two sequential lines on the printed surface. The proximity effect is the second nonlinear parameter affecting the print resolution and color distribution, which refers to how the proximity of two colored areas affect the shade of the uncolored area in between.Finally the dependency of the shade on the brightener ratio is to be determined. For a liquid inside a bottle it is very easy to come to a final conclusion. However, the porous translucent medium has a huge influence on the perceived shade, because of the  reflections form various depths of the material and photons following diverse paths through the sintered zirconia to the eye of the observer.
  
@@ -75,8 +75,9 @@ Another novelty of the project is the discontinuation of the requirement for a b
 
 \chapter{Experiments}
 
-Before moving on to the experiments I want to show you the 5 axis printing system prototype provided by Bredent for conduction of the experiments. 
-It utilizes a single nozzle print head  with a piezoelectric valve to generate the droplets. Ink selection, positioning and drop generation commands are given with a G-Code.
+Before moving on to the experiments I want to show you the 5 axis printing system prototype provided by Bredent GmbH. for conduction of the experiments. 
+It utilizes a single nozzle print head with a piezoelectric valve to generate the droplets. Ink selection, positioning and drop generation commands are given with a G-Code.
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{grafiken/PrototypeText.png}
@@ -85,7 +86,7 @@ It utilizes a single nozzle print head  with a piezoelectric valve to generate t
 \end{figure} 
 
 \section{Material Properties}
-For a dental technician it is totally trivial how viscous the ink is but for an automated printing  process the quantization of the properties is highly important. In the first experiment, the properties of the coloring agents A1, A2 and A3.5 are determined and compared to those of water. The inks have a similar density to water, but with increasing coloring agent the surface tension gets lower and the viscosity gets 3 times higher when compared to water.Also, a porosity measurement for the zirconia is conducted, which revealed a 43 percent void fraction. The raw volumetric porosity measurements are 43.09,	43.00 and 43.70. The consistency of the results is also a sign for randomly close packed zirconia powder during the manufacturing procedure. Otherwise the irregular packing would inhibit the fluid drainage and cause macro voids inside the porous material after the dissipation of the impregnating liquid, which would also lead to porosity measurements with a significantly large standard deviation. 
+For a dental technician it is completely trivial how viscous the ink is but for an automated printing  process the quantization of the properties is highly important. In the first experiment, the properties of the coloring agents A1, A2 and A3.5 are determined and compared to those of water. The inks have a similar density to water, but with increasing coloring agent the surface tension gets lower and the viscosity gets 3 times higher when compared to water. Also, a porosity measurement for the zirconia is conducted, which revealed a 43 percent void fraction. The raw volumetric porosity measurements are 43.09,	43.00 and 43.70. The consistency of the results is also a sign for randomly close packed zirconia powder during the manufacturing procedure. Otherwise the irregular packing would inhibit the fluid drainage and cause macro voids inside the porous material after the dissipation of the impregnating liquid, which would also lead to porosity measurements with a significantly large standard deviation. 
  
 \begin{figure}[h]
 	\centering
@@ -94,10 +95,28 @@ For a dental technician it is totally trivial how viscous the ink is but for an 
 	\label{fig:InkProps}
 \end{figure} 
 
-\section{Absorption Time}
-The second experiment is about the absorption time of the droplets which limits the printing time. We wanted to see whether a heat source can accelerate the absorption or not.
-The Absorption times are measured at temperatures ranging from 20 to 80 deg cels.The results show that a change of 60 degrees provide a 50\% reduction in time.
+The most important outcome of this experiment is high values of viscosity observed for the inks, in comparison to water. This situation provides numerous advantages for the drop generation part of the process. The higher viscosity of the ink helps reduce the occurrence of the satellite drops.
 
+\section{Absorption Time}
+The second experiment is about the absorption time of the droplets which limits the printing time. Before the first drop is absorbed, a second drop should not land on the same spot. This would lead to accumulation of the liquid on the surface and eventually they would flow in the direction of the first drop because of the surface which is already wetted. The target accuracy of the drop deployment system would lose all of its importance. The resolution would be also sacrificed alongside the target accuracy, due to the accumulated liquid on the surface. The absorption time is formulated by Markicevic et al. as in equation \ref{eq:InfTime}.
+
+Depending on the Eötvös rule, the surface tension of any Newtonian liquid declines with climbing temperature values. For water the formula is generated as:
+\bigskip
+\begin{equation}\label{eq:watergamma}
+\gamma =0.07275 \cdotp(1-0.002\cdotp(T-291))
+\end{equation}
+\bigskip
+Arrhenius-Andrade-Relation defines the viscosity of any Newtonian fluid depending on the temperature in the equation \ref{eq:viscosity}.  
+\bigskip
+\begin{equation}\label{eq:watergamma}
+\eta =\eta_0 \cdotp exp(\frac{E_A}{R\cdotp T})
+\end{equation}
+\bigskip
+The exponential reduction of the viscosity  versus the proportional decrease of the surface tension would be expected to result with a cumulative decrease of the absorption time with climbing temperatures.
+
+Single drops with a volume of 100 nL are deploye
+
+\bigskip
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{grafiken/AbsorptionTime.jpg}
