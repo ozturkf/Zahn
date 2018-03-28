@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 \newcommand{\enquotezwei}[1]{\glqq#1\grqq}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -7,6 +7,12 @@
   \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
+
+\bibitem[{Clarke \emph{et~al.}(2002)Clarke, Blake, Carruthers and
+  Woodward}]{clarke2002spreading}
+Clarke, A., Blake, T., Carruthers, K. and Woodward, A. (2002):
+  \enquotezwei{Spreading and imbibition of liquid droplets on porous surfaces}.
+  \emph{Langmuir}, Vl.~18(8) PP. 2980--2984.
 
 \bibitem[{Denry and Kelly(2008)}]{denry2008state}
 Denry, I. and Kelly, J.~R. (2008): \enquotezwei{State of the art of zirconia
