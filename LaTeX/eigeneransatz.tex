@@ -24,14 +24,18 @@ Another aspect to consider is the ink costs. Each of the ink bottles are labeled
 
 \chapter{Solution Structure}
 The structural concept is based on the utilization of a 5-axis printing system. A basic microcontroller designed for the automation of the router systems is connected to stepper motors and encoders to control the coordinated printing processes. 4 base colors with the highest saturation levels (A, B, C and D4) are to be used with the brightener to color the dental zirconia, instead of 17 bottles consisting of 16 predefined shades plus the brightener. The amount of the brightener defines the shade of the color. Therefore, the space requirement of the machine is reduced. The inks and the brightener are continuously fed into a rotary distribution valve and are in their neutral status not flowing in any direction. As soon as the rotary valve opens the gate of any incoming pipe,the flow is permitted to the droplet ejector.  
-\newline
-\begin{figure}[h]
+
+\bigskip
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{grafiken/SolutionStructure.jpg}
 	\caption{Solution Structure}
 	\label{fig:SolutionStructure}
 \end{figure} 
-\newline
+
+\bigskip
+
 A serial communication between the controller and the rotary valve arranges the position of the rotary valve and the duration to hold on in that position. The required mixture is dosed and pulled by the droplet ejector and deployed through the nozzle, driven by the pressure difference between the ink bottles at the beginning of the cycle and the atmosphere. A 3-axis table and the 2-axis nozzle holder are responsible for the coordination of the flying drops and the point on the surface of the dental crown where the drops need to land during the printing process.
 
 \chapter{Solution Processes}
@@ -39,12 +43,14 @@ A serial communication between the controller and the rotary valve arranges the 
 The process concept is realized in three stages. Each stage depends on the previous one and cannot be proceeded to, before the previous one is completed.
 
 \bigskip
-\begin{figure}[h]
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{grafiken/SolutionProcesses.jpg}
 	\caption{Solution Processes}
 	\label{fig:SolutionProcesses}
 \end{figure} 
+
 \bigskip
 
 
@@ -55,9 +61,11 @@ The process concept is realized in three stages. Each stage depends on the previ
  The projectile velocity of the drops is one of the most important parameters affecting the printing system on a temporal basis and also the spreading characteristics of the ink within the porous medium. It is known that for Weber numbers higher than 50, the drops are expected to splash upon the impact with the surface \citep{clarke2002spreading}.
  
  \bigskip
+ 
  \begin{equation}\label{eq:weber}
  We=\frac{\rho rv^2}{\gamma}
  \end{equation}
+ 
  \bigskip
  
  The maximum distance of the nozzle to the zirconia surface has to be limited. The projectile of the droplets are not perfectly identical. There is a deviation of the impact point, because of the factors like a slight change of the nozzle escape angle of an arbitrary droplet or drag caused by the spontaneous fluctuation of the air flow inside the printing chamber. The longer the fly distance of the droplets are, the less accurately they will meet the same point. So the deployment distance for the droplets should be as short as possible. However on the other side the geometry of the crown creates the second boundary of the problematic. The concave structures on the upper side of the teeth carrying out the chewing function pose a collision danger with the nozzle. This is a situation where the printing angle is also influential. 
@@ -78,72 +86,174 @@ Another novelty of the project is the discontinuation of the requirement for a b
 Before moving on to the experiments I want to show you the 5 axis printing system prototype provided by Bredent GmbH. for conduction of the experiments. 
 It utilizes a single nozzle print head with a piezoelectric valve to generate the droplets. Ink selection, positioning and drop generation commands are given with a G-Code.
 
-\begin{figure}[h]
+\bigskip
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\textwidth]{grafiken/PrototypeText.png}
 	\caption{5 axis printer design for dental ink (Matthias Leininger, Bredent GmbH)}
 	\label{fig:Prototype}
 \end{figure} 
 
+\bigskip
+
 \section{Material Properties}
 For a dental technician it is completely trivial how viscous the ink is but for an automated printing  process the quantization of the properties is highly important. In the first experiment, the properties of the coloring agents A1, A2 and A3.5 are determined and compared to those of water. The inks have a similar density to water, but with increasing coloring agent the surface tension gets lower and the viscosity gets 3 times higher when compared to water. Also, a porosity measurement for the zirconia is conducted, which revealed a 43 percent void fraction. The raw volumetric porosity measurements are 43.09,	43.00 and 43.70. The consistency of the results is also a sign for randomly close packed zirconia powder during the manufacturing procedure. Otherwise the irregular packing would inhibit the fluid drainage and cause macro voids inside the porous material after the dissipation of the impregnating liquid, which would also lead to porosity measurements with a significantly large standard deviation. 
- 
-\begin{figure}[h]
+
+\bigskip
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{grafiken/InkProps.jpg}
 	\caption{Ink Properties}
 	\label{fig:InkProps}
 \end{figure} 
 
+\bigskip
+
 The most important outcome of this experiment is high values of viscosity observed for the inks, in comparison to water. This situation provides numerous advantages for the drop generation part of the process. The higher viscosity of the ink helps reduce the occurrence of the satellite drops.
+
+\section{Ink Concentration vs. shade without Lateral Flow}
+
+The dental colors appearing after the sintering process have to be assigned to specific ink concentrations. When a pattern is printed on the zirconia surface a part of the ink deployed on the target area escapes the region where t is supposed to be through lateral diffusion in the pores of the material. That is the reason one observes a spread distribution of color intensity. This can be inhibited if the whole material is printed with the same amount of ink to assure a homogeneous color intensity throughout the whole surface to obtain the theoretically achievable shades without the influence of lateral diffusions inside the material.
+
+In order to conduct the experiment, 10 zirconia plates are prepared in a square form. The surface of the plates are imprinted with the amount of ink which is equal to the 0\%, 10\%, 20\%, 30\%, 40\%, 50\%, 60\%, 70\%, 80\%, 90\% und 100\% of the calculated porosity of the zirconia plates. The color intensities are calculated later with the results of the PSF experiment.
+
+
+
 
 \section{Absorption Time}
 The second experiment is about the absorption time of the droplets which limits the printing time. Before the first drop is absorbed, a second drop should not land on the same spot. This would lead to accumulation of the liquid on the surface and eventually they would flow in the direction of the first drop because of the surface which is already wetted. The target accuracy of the drop deployment system would lose all of its importance. The resolution would be also sacrificed alongside the target accuracy, due to the accumulated liquid on the surface. The absorption time is formulated by Markicevic et al. as in equation \ref{eq:InfTime}.
 
 Depending on the Eötvös rule, the surface tension of any Newtonian liquid declines with climbing temperature values. For water the formula is generated as:
+
 \bigskip
+
 \begin{equation}\label{eq:watergamma}
 \gamma =0.07275 \cdotp(1-0.002\cdotp(T-291))
 \end{equation}
+
 \bigskip
+
 Arrhenius-Andrade-Relation defines the viscosity of any Newtonian fluid depending on the temperature in the equation \ref{eq:viscosity}.  
+
 \bigskip
-\begin{equation}\label{eq:watergamma}
+
+\begin{equation}\label{eq:viscosity}
 \eta =\eta_0 \cdotp exp(\frac{E_A}{R\cdotp T})
 \end{equation}
+
 \bigskip
+
 The exponential reduction of the viscosity  versus the proportional decrease of the surface tension would be expected to result with a cumulative decrease of the absorption time with climbing temperatures.
 
-Single drops with a volume of 100 nL are deploye
+Single drops with a volume of 100 nL are deployed on the sawn and milled surfaces. The time between the landing and complete absorption was measured 4 times for each surface structure at the temperatures 20\textdegree C, 30\textdegree C, 40\textdegree C, 60\textdegree C and 80\textdegree C.
 
 \bigskip
-\begin{figure}[h]
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{grafiken/AbsorptionTime.jpg}
 	\caption{Effect of heat on the absorption time}
 	\label{fig:AbsorptionTime}
 \end{figure} 
 
+\bigskip
+
+Analyzing the collected measurements, it can be concluded that a 60\textdegree C increase of the zirconia plate leads to about 50\% reduction of the absorption time. These values are to be employed for a curve fitting to be implemented to the shade model at the final stage of the thesis.
+ 
 \section{Drop Size Selection}
-The purpose of the third experiment is deciding for an adequate drop size. Depending on the drop size the drop generator is to be selected. In this figure you can see a printed zirconia specimen. Each spot on the upper half has a total ink volume of 800 nL and the ones on the bottom half 400 nL. These spots are printed using drops with volumes of 100, 50, 25 and 12.5 nL.The first image shows the spots right after printing. The second one shows the surface after furnacing.
-\begin{figure}[h]
+The purpose of the third experiment is deciding for an adequate drop size.A larger drop size results in shorter print duration. However they also tend to expand the spot area more compared to the smaller drops,even though the porous material is not close to being saturated, which is a serious problem for the resolution. Depending on the drop size the drop generation method is to be selected. 
+\bigskip
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=0.38\textwidth]{grafiken/DropSize.jpg}
+	\includegraphics[width=0.36\textwidth]{grafiken/DropSize.jpg}
 	\caption{Effect of the drop size on the spot area}
 	\label{fig:DropSize}
 \end{figure} 
-A larger drop size results in shorter print duration. However they also tend to expand the spot area more compared to the smaller drops as you can see, which is bad for the resolution.The graphs show the ink intensity along the red lines and the spreading of the ink in lateral direction for each drop volume. 12.5 and 25 nL drops result in a similar spot diameter but the spots tend to get significantly larger with 50 and 100 nL Drops.
-\begin{figure}[h]
+\bigskip
+In the figure \ref{fig:DropSize} one can see a printed zirconia specimen. Each spot on the upper half has a total ink volume of 800 nL and the ones on the bottom half 400 nL. These spots are printed using drops with volumes of 100, 50, 25 and 12.5 nL.The first image shows the spots right after printing. The second one shows the surface after furnacing.
+
+\bigskip
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{grafiken/SpotArea.jpg}
 	\caption{Comparison of the spot area results depending on the drop size}
 	\label{fig:SpotArea}
 \end{figure} 
 
+\bigskip
+
+The graphs show the ink intensity along the red lines and the spreading of the ink in lateral direction for each drop volume. 12.5 and 25 nL drops result in a similar spot diameter but the spots tend to get significantly larger with 50 and 100 nL Drops.
+
+\section{Proximity}
+The proximity effect describes in the case of dental printing the coloring of the unprinted area between two printed areas proximate to each other. The closer the printed areas are, the saturated does the unprinted area in between become.
+
+If the color change of the unprinted area can be described depending on the ink concentration and distance between the printed areas, the effect of the proximity can be implemented to the model.
+\bigskip
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{grafiken/proximityprint.jpg}
+	\caption{Comparison of the spot area results depending on the drop size}
+	\label{fig:proximityprint}
+\end{figure} 
+
+\bigskip
+
+A pattern with varying droplet concentration and another pattern with varying distance between two lines was printed on the zirconia.
+
+\bigskip
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{grafiken/proximitysinter.jpg}
+	\caption{Comparison of the spot area results depending on the drop size}
+	\label{fig:proximitysinter}
+\end{figure} 
+
+\bigskip
+
+Observing the Figure \ref{fig:proximitysinter}, one can qualitatively conclude, that the proximity has a significant effect on the coloring behavior.
+
+
+\section{Printing angle}
+The dental crowns do not always present convex features. The chewing surface can rarely possess even some under cut geometries. In such cases it is not possible for a droplet to land on the zirconia surface vertically and for some known areas, the printing process has to be conducted on skew surfaces. 
+
+If the lateral momentum of the droplet are high enough at moment of the impact on the surface, the printed pattern can look like it has a motion blur effect. It is also possible that the resolution gets lower because of the lateral flow of the drops on the surface. There has to be some critical angle, at which such disadvantages become inevitably  significant. The maximum milling angle used for the dental crowns is declared by Bredent GmbH to be 30\textdegree. So, an experiment to test the effects of printing on a skew surface up to an angle of 45\textdegree is supposed to be comprehensive enough.
+
+	\bigskip
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{grafiken/angleprint.jpg}
+		\caption{Comparison of the spot area results depending on the drop size}
+		\label{fig:angleprint}
+	\end{figure} 
+
+	\bigskip
+
+In order to test the effect of printing on a skew surface to parallel lines are printed on the surface which have a distance of 4mm 4 times, while the zirconia specimen was standing at angles 0\textdegree, 15\textdegree, 30\textdegree and 45\textdegree. The printed sample can be seen in the figure \ref{fig:angleprint}
+The lines were generated using 25 nL droplets with a drop density of 50 drops per mm.
+
 \section{Point Spread Function}
 
 
-The halftone tonality is greatly affected by optical dot gain a phenomena caused by the photon diffusion inside the medium. The point spread function (PSF) is one of the ways to model the optical dot gain. The derivation of an appropriate PSF is accomplished through solving the radiative transfer equation, which leads to a PSF in terms of the scattering and absorption coefficients of the medium. This PSF is then used for calculating the average diffusion distance of the photons inside medium. It is shown in the work of Rogers that the Z-sum, which can be expressed explicitly, can be estimated by $\mu^{-s}$, where $\mu$ is the fractional ink coverage and s has values between 0 and 1.  The interrelationship  between the PSF  approach and the probability approach is proven to be strong. \citep{rogers2015point}
+The halftone tonality is greatly affected by optical dot gain, a phenomena caused by the photon diffusion inside the medium. The point spread function (PSF) is one of the ways to model the optical dot gain. The derivation of an appropriate PSF is accomplished through solving the radiative transfer equation, which leads to a PSF in terms of the scattering and absorption coefficients of the medium. This PSF is then used for calculating the average diffusion distance of the photons inside medium. It is shown in the work of Rogers that the Z-sum, which can be expressed explicitly, can be estimated by $\mu^{-s}$, where $\mu$ is the fractional ink coverage and s has values between 0 and 1.  The interrelationship  between the PSF  approach and the probability approach is proven to be strong. \citep{rogers2015point}
 
+In words of a less complexity, the generated drops do not act as if they have definitive borders. In the contrary, the ink concentration decreases in the distal direction in a point symmetrical Gaussian distribution form. Because of that one can not simply measure the diameter of a drop with direct comparison methods. Point Spread Function is used to define the distribution of the observed color depending on the distribution of the ink taking also the optical dot gain in consideration.
 
+The Drops are expected to have a high color intensity in the middle That middle point is going to be the center of the Gaussian distribution.The points with an equal distance from the middle are supposed to present a point symmetrically identical color intensity.
+
+\bigskip
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{grafiken/psfprint.jpg}
+	\caption{Comparison of the spot area results depending on the drop size}
+	\label{fig:psfprint}
+\end{figure} 
+
+\bigskip
 
