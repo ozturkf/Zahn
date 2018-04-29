@@ -112,15 +112,14 @@ For a dental technician it is completely trivial how viscous the ink is but for 
 \bigskip
 
 The most important outcome of this experiment is high values of viscosity observed for the inks, in comparison to water. This situation provides numerous advantages for the drop generation part of the process. The higher viscosity of the ink helps reduce the occurrence of the satellite drops.
-
-\section{Ink Concentration vs. shade without Lateral Flow}
+\begin{comment}
+ \section{Ink Concentration vs. shade without Lateral Flow}
 
 The dental colors appearing after the sintering process have to be assigned to specific ink concentrations. When a pattern is printed on the zirconia surface a part of the ink deployed on the target area escapes the region where t is supposed to be through lateral diffusion in the pores of the material. That is the reason one observes a spread distribution of color intensity. This can be inhibited if the whole material is printed with the same amount of ink to assure a homogeneous color intensity throughout the whole surface to obtain the theoretically achievable shades without the influence of lateral diffusions inside the material.
 
 In order to conduct the experiment, 10 zirconia plates are prepared in a square form. The surface of the plates are imprinted with the amount of ink which is equal to the 0\%, 10\%, 20\%, 30\%, 40\%, 50\%, 60\%, 70\%, 80\%, 90\% und 100\% of the calculated porosity of the zirconia plates. The color intensities are calculated later with the results of the PSF experiment.
 
-
-
+\end{comment}
 
 \section{Absorption Time}
 The second experiment is about the absorption time of the droplets which limits the printing time. Before the first drop is absorbed, a second drop should not land on the same spot. This would lead to accumulation of the liquid on the surface and eventually they would flow in the direction of the first drop because of the surface which is already wetted. The target accuracy of the drop deployment system would lose all of its importance. The resolution would be also sacrificed alongside the target accuracy, due to the accumulated liquid on the surface. The absorption time is formulated by Markicevic et al. as in equation \ref{eq:InfTime}.
@@ -191,31 +190,50 @@ The graphs show the ink intensity along the red lines and the spreading of the i
 The proximity effect describes in the case of dental printing the coloring of the unprinted area between two printed areas proximate to each other. The closer the printed areas are, the saturated does the unprinted area in between become.
 
 If the color change of the unprinted area can be described depending on the ink concentration and distance between the printed areas, the effect of the proximity can be implemented to the model.
+
 \bigskip
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{grafiken/proximityprint.jpg}
-	\caption{Comparison of the spot area results depending on the drop size}
+	\caption{Printed pattern for the proximity effect}
 	\label{fig:proximityprint}
 \end{figure} 
 
 \bigskip
 
-A pattern with varying droplet concentration and another pattern with varying distance between two lines was printed on the zirconia.
+A pattern with varying distance between two lines and another pattern with varying droplet concentration were printed on the zirconia. The blue lines mark the initially printed surface portion before without taking the diffusion in the material into account. The pattern on the left size presents two lines starting on the same coordinates and reaching a distance of 5 mm at right end. The ink trace has a concentration of 1250 nl/mm. The pattern on the right size presents two lines with a distance of 5mm to each other. On the left end of the lines, the ink intensity is 625 nl/mm at  the left end and reaches linearly 2500 nl/mm towards the right end of the pattern in 30 incremental steps.
 
 \bigskip
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{grafiken/proximitysinter.jpg}
-	\caption{Comparison of the spot area results depending on the drop size}
-	\label{fig:proximitysinter}
+	\includegraphics[width=1\textwidth]{grafiken/prepostV.jpg}
+	\caption{Ink intensity analysis of the printed pattern before and after the sintering process}
+	\label{fig:prepostV}
 \end{figure} 
 
 \bigskip
 
-Observing the Figure \ref{fig:proximitysinter}, one can qualitatively conclude, that the proximity has a significant effect on the coloring behavior.
+Observing the Figure \ref{fig:prepostV}, one can qualitatively conclude, that the proximity has a significant effect on the coloring behavior. More than a half of the pattern seems to be one thick line on the left side of the postsintering graph in contrary to the lines recognized in the presintering analysis graph. 
+
+The second pattern with the varying ink intensity contains a flaw. The lower line is weaker in the middle because of a contamination with finger oil, which happened before the printing process. Nevertheless, the experiment was proceeded in order to observe, how seriously the printing process is affected by a slight finger oil contamination. The result shows a serious fluctuation in the acquired color which is as high as two shades. However, the purpose of the experiment was to define the optimum trace distance for various ink intensities. The result of the first pattern is to be utilized to confirm the integrity of the results of the second pattern. The ink distribution on the line, where the distance between the two lines is 5 mm in the first pattern, should be the same with the ink distribution on the line where the ink intensity is 1250 nl/mm. If the results comply with each other, the optimum trace distance for any ink intensity can be calculated.
+
+
+\bigskip
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{grafiken/vProfile.jpg}
+	\caption{Profiles of color intensity depending on the distance on the left and depending on the ink amount on the right}
+	\label{fig:vProfile}
+\end{figure} 
+
+\bigskip
+
+The plots to analyze the ink distribution are presented with two columns in the Figure \ref{fig:vProfile}. The column on the left side presents  8  equidistant positions on the varying distance pattern which are marked with eight red vertical lines and the right column contains the cross section of the pattern on the right side with varying ink intensity. The The pattern on the left shows that a necking appears already with a distance of 3 mm when the printing intensity is equal to 1250 nl/mm. 
+
+
 
 
 \section{Printing angle}
@@ -259,4 +277,28 @@ The drops are expected to have a high color intensity in the middle That middle 
 
 In order to inspect the Gaussian distributions of ink in cases of different total ink amounts and different drop sizes 8 spots are printed using drops with volumes of 25 nL and 50 nL. The total ink volumes for the spots on each plate are identical and equal to 200 nL, 400nL, 800nL, 1200 nL, 1600 nL, 2000 nL, 2400 nL and 2800 nL.
 
-The results of this experiment are necessary for the reverse calculation of the required ink amount. Depending on the calculations a map can be generated for the amount of drops and target positions to deploy these drop, in order to acquire a desired shade distribution as an outcome.   
+The results of this experiment are necessary for the reverse calculation of the required ink amount. Depending on the calculations a map can be generated for the amount of drops and target positions to deploy these drop, in order to acquire a desired shade distribution as an outcome.  
+
+
+\bigskip
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{grafiken/drops25.jpg}
+	\caption{Comparison of the spot area results depending on the drop size}
+	\label{fig:drops25}
+\end{figure} 
+
+\bigskip 
+
+\bigskip
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{grafiken/drops50.jpg}
+	\caption{Comparison of the spot area results depending on the drop size}
+	\label{fig:drops50}
+\end{figure} 
+
+\bigskip 
+
