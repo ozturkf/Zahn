@@ -1,5 +1,5 @@
 clear;clc;close all;
-mode=25;
+mode=50;
 sub25=[6290 5464 4655 3795 2976 2143 1359 530];
 sub50=[6262 5448 4617 3820 2989 2167 1370 556];
 
@@ -11,7 +11,7 @@ limits50=[       143 135 136 191 236 284 352 420;
 if mode==25
     sub=sub25;
     limits=limits25;
-    postImage=imread('on_25f.jpg');
+    postImage=imread('on_25ff.jpg');
 elseif mode==50
     sub=sub50;
     limits=limits50;
@@ -44,7 +44,7 @@ scaled=zeros(8, 900);
 
 
 
-fwhm=(limits(2,:)-limits(1,:))*7.4/900
+fwhm=round(((limits(2,:)-limits(1,:))*7.4/900),1);
 
 for i=1:size(sub,2)
     subplot(8,2,(2*(9-i)));
@@ -53,8 +53,10 @@ for i=1:size(sub,2)
     cropped(i,:)=sm(i,51:950);
     %     rcropped(i,:)=1-((1 - cropped(i,:))/max( 1 - cropped(i,:)));
     scaled(i,:)= cropped(i,:)-min(cropped(i,:)); %   (max(postIm))-min(postIm(:,sub(i))))
+    scalefactor=max(scaled(1,:));
+    rescaled(i,:)=scaled(i,:)/scalefactor;
     %     plot(cropped(i,:));hold on;
-    plot(scaled(i,:));hold on;
+    plot(rescaled(i,:));hold on;
     %     plot(rcropped(i,:),'blue');hold on;
     line([limits(1,i), limits(1,i)],[0 1],'color', 'black')
     line([limits(2,i), limits(2,i)],[0 1],'color', 'black')
