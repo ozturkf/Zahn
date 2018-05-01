@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{17}
 \newcommand{\enquotezwei}[1]{\glqq#1\grqq}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -23,6 +23,10 @@ Denry, I. and Kelly, J.~R. (2008): \enquotezwei{State of the art of zirconia
 Hapgood, K.~P., Litster, J.~D., Biggs, S.~R. and Howes, T. (2002):
   \enquotezwei{Drop penetration into porous powder beds}. \emph{Journal of
   Colloid and Interface Science}, Vl. 253(2) PP. 353--366.
+
+\bibitem[{Hille(2013)}]{hille}
+Hille, P. (2013): \enquotezwei{ZWP Zahnarzt Wirtschaft Praxis}.
+  \urlprefix\url{https://epaper.zwp-online.info/epaper/gim/zwp/2013/zwp0113/epaper/ausgabe.pdf}.
 
 \bibitem[{{IDS CAD}(2016)}]{idscad2016}
 {IDS CAD} (2016): \enquotezwei{Chang's liquid brochure}.

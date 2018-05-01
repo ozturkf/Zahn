@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.23)  1 MAY 2018 01:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.23)  1 MAY 2018 10:10
 entering extended mode
 **./Masterarbeit.tex
 (Masterarbeit.tex
@@ -2041,9 +2041,9 @@ e.sty"
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
 \verbatim@out=\write3
-runsystem(echo t > "w18-test-20185187.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-201851610.tex")...disabled (restricted).
 
-runsystem(del "w18-test-20185187.tex")...disabled (restricted).
+runsystem(del "w18-test-201851610.tex")...disabled (restricted).
 
 
 
@@ -2940,7 +2940,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 10.
-<grafiken/implant.png, id=156, 146.4672pt x 180.675pt>
+<grafiken/implant.png, id=158, 146.4672pt x 180.675pt>
 File: grafiken/implant.png Graphic file (type png)
 <use grafiken/implant.png>
 Package pdftex.def Info: grafiken/implant.png  used on input line 18.
@@ -2961,7 +2961,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
  <./grafiken/implant.png>]
-<grafiken/shadeguide.jpg, id=167, 939.51pt x 471.26062pt>
+<grafiken/shadeguide.jpg, id=170, 939.51pt x 471.26062pt>
 File: grafiken/shadeguide.jpg Graphic file (type jpg)
 <use grafiken/shadeguide.jpg>
 Package pdftex.def Info: grafiken/shadeguide.jpg  used on input line 32.
@@ -3062,7 +3062,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
-<grafiken/lab_card.jpg, id=243, 956.82469pt x 484.05844pt>
+<grafiken/lab_card.jpg, id=245, 956.82469pt x 484.05844pt>
 File: grafiken/lab_card.jpg Graphic file (type jpg)
 <use grafiken/lab_card.jpg>
 Package pdftex.def Info: grafiken/lab_card.jpg  used on input line 121.
@@ -3078,7 +3078,7 @@ Package babel Info: Redefining ngerman shorthand "~
 [9
 
  <./grafiken/lab_card.jpg>]
-<grafiken/CrownProcesses.jpg, id=257, 644.4075pt x 1445.4pt>
+<grafiken/CrownProcesses.jpg, id=259, 644.4075pt x 1445.4pt>
 File: grafiken/CrownProcesses.jpg Graphic file (type jpg)
 <use grafiken/CrownProcesses.jpg>
 Package pdftex.def Info: grafiken/CrownProcesses.jpg  used on input line 134.
@@ -3097,7 +3097,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 145.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 145.
-<grafiken/false_colored.png, id=269, 338.5279pt x 188.66273pt>
+<grafiken/false_colored.png, id=271, 338.5279pt x 188.66273pt>
 File: grafiken/false_colored.png Graphic file (type png)
 <use grafiken/false_colored.png>
 Package pdftex.def Info: grafiken/false_colored.png  used on input line 153.
@@ -3167,7 +3167,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 25.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 25.
-<grafiken/SolutionStructure.jpg, id=292, 311.7246pt x 221.3871pt>
+<grafiken/SolutionStructure.jpg, id=294, 311.7246pt x 221.3871pt>
 File: grafiken/SolutionStructure.jpg Graphic file (type jpg)
 <use grafiken/SolutionStructure.jpg>
 Package pdftex.def Info: grafiken/SolutionStructure.jpg  used on input line 32.
@@ -3198,7 +3198,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 41.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 41.
-<grafiken/SolutionProcesses.jpg, id=303, 967.9362pt x 516.7305pt>
+<grafiken/SolutionProcesses.jpg, id=305, 967.9362pt x 516.7305pt>
 File: grafiken/SolutionProcesses.jpg Graphic file (type jpg)
 <use grafiken/SolutionProcesses.jpg>
 Package pdftex.def Info: grafiken/SolutionProcesses.jpg  used on input line 49.
@@ -3254,7 +3254,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 84.
-<grafiken/PrototypeText.png, id=327, 395.076pt x 344.0052pt>
+<grafiken/PrototypeText.png, id=329, 395.076pt x 344.0052pt>
 File: grafiken/PrototypeText.png Graphic file (type png)
 <use grafiken/PrototypeText.png>
 Package pdftex.def Info: grafiken/PrototypeText.png  used on input line 93.
@@ -3274,7 +3274,7 @@ Package babel Info: Redefining ngerman shorthand "~
 [21
 
  <./grafiken/PrototypeText.png>]
-<grafiken/InkProps.jpg, id=335, 1090.0725pt x 695.59875pt>
+<grafiken/InkProps.jpg, id=337, 1090.0725pt x 695.59875pt>
 File: grafiken/InkProps.jpg Graphic file (type jpg)
 <use grafiken/InkProps.jpg>
 Package pdftex.def Info: grafiken/InkProps.jpg  used on input line 107.
@@ -3292,7 +3292,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 126.
  [22 <./grafiken/InkProps.jpg>]
-<grafiken/AbsorptionTime.jpg, id=343, 417.81094pt x 217.5628pt>
+<grafiken/AbsorptionTime.jpg, id=345, 417.81094pt x 217.5628pt>
 File: grafiken/AbsorptionTime.jpg Graphic file (type jpg)
 <use grafiken/AbsorptionTime.jpg>
 Package pdftex.def Info: grafiken/AbsorptionTime.jpg  used on input line 155.
@@ -3310,7 +3310,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 164.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 164.
-<grafiken/DropSize.jpg, id=350, 196.735pt x 401.5pt>
+<grafiken/DropSize.jpg, id=352, 196.735pt x 401.5pt>
 File: grafiken/DropSize.jpg Graphic file (type jpg)
 <use grafiken/DropSize.jpg>
 Package pdftex.def Info: grafiken/DropSize.jpg  used on input line 169.
@@ -3325,7 +3325,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 174.
 
 [24 <./grafiken/AbsorptionTime.jpg>]
-<grafiken/SpotArea.jpg, id=357, 1624.0675pt x 926.46124pt>
+<grafiken/SpotArea.jpg, id=359, 1624.0675pt x 926.46124pt>
 File: grafiken/SpotArea.jpg Graphic file (type jpg)
 <use grafiken/SpotArea.jpg>
 Package pdftex.def Info: grafiken/SpotArea.jpg  used on input line 180.
@@ -3343,7 +3343,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 189.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 189.
-<grafiken/proximityprint.jpg, id=363, 1020.81375pt x 271.76532pt>
+<grafiken/proximityprint.jpg, id=365, 1020.81375pt x 271.76532pt>
 File: grafiken/proximityprint.jpg Graphic file (type jpg)
 <use grafiken/proximityprint.jpg>
 Package pdftex.def Info: grafiken/proximityprint.jpg  used on input line 198.
@@ -3357,7 +3357,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 202.
  [26 <./grafiken/SpotArea.jpg>]
-<grafiken/prepostV.jpg, id=369, 1677.26625pt x 947.54pt>
+<grafiken/prepostV.jpg, id=371, 1677.26625pt x 947.54pt>
 File: grafiken/prepostV.jpg Graphic file (type jpg)
 <use grafiken/prepostV.jpg>
 Package pdftex.def Info: grafiken/prepostV.jpg  used on input line 211.
@@ -3381,7 +3381,7 @@ Package epstopdf Info: Source file: <grafiken/vmatch.eps>
 ed-to.pdf grafiken/vmatch.eps>
 (epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
-<grafiken/vmatch-eps-converted-to.pdf, id=380, 876.27374pt x 484.81125pt>
+<grafiken/vmatch-eps-converted-to.pdf, id=382, 876.27374pt x 484.81125pt>
 File: grafiken/vmatch-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/vmatch-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/vmatch-eps-converted-to.pdf  used on input li
@@ -3397,7 +3397,7 @@ Package epstopdf Info: Source file: <grafiken/vProfile.eps>
 rted-to.pdf grafiken/vProfile.eps>
 (epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
-<grafiken/vProfile-eps-converted-to.pdf, id=381, 559.08875pt x 718.685pt>
+<grafiken/vProfile-eps-converted-to.pdf, id=383, 559.08875pt x 718.685pt>
 File: grafiken/vProfile-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/vProfile-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/vProfile-eps-converted-to.pdf  used on input 
@@ -3425,7 +3425,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 252.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 252.
-<grafiken/angleprint.jpg, id=406, 468.7695pt x 70.299pt>
+<grafiken/angleprint.jpg, id=408, 468.7695pt x 70.299pt>
 File: grafiken/angleprint.jpg Graphic file (type jpg)
 <use grafiken/angleprint.jpg>
 Package pdftex.def Info: grafiken/angleprint.jpg  used on input line 261.
@@ -3444,28 +3444,19 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 272.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 277.
+(babel)             in language  on input line 276.
  [31 <./grafiken/angleprint.jpg>]
 <grafiken/psfprint.jpg, id=419, 835.62187pt x 393.72093pt>
 File: grafiken/psfprint.jpg Graphic file (type jpg)
 <use grafiken/psfprint.jpg>
-Package pdftex.def Info: grafiken/psfprint.jpg  used on input line 285.
+Package pdftex.def Info: grafiken/psfprint.jpg  used on input line 281.
 (pdftex.def)             Requested size: 455.24411pt x 214.50456pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 298.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 298.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 298.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 298.
- [32 <./grafiken/psfprint.jpg>]
 Package epstopdf Info: Source file: <grafiken/drops25.eps>
 (epstopdf)                    date: 2018-05-01 01:18:14
 (epstopdf)                    size: 724184 bytes
@@ -3474,14 +3465,23 @@ Package epstopdf Info: Source file: <grafiken/drops25.eps>
 (epstopdf)                    size: 167953 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/drops25-eps-conver
 ted-to.pdf grafiken/drops25.eps>
-(epstopdf)             \includegraphics on input line 301.
+(epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
-<grafiken/drops25-eps-converted-to.pdf, id=425, 468.75125pt x 718.685pt>
+<grafiken/drops25-eps-converted-to.pdf, id=420, 468.75125pt x 718.685pt>
 File: grafiken/drops25-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/drops25-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/drops25-eps-converted-to.pdf  used on input l
-ine 301.
+ine 297.
 (pdftex.def)             Requested size: 364.19667pt x 558.3788pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 301.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 301.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 301.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 301.
+ [32 <./grafiken/psfprint.jpg>]
 Package epstopdf Info: Source file: <grafiken/drops50.eps>
 (epstopdf)                    date: 2018-05-01 01:22:09
 (epstopdf)                    size: 349137 bytes
@@ -3490,22 +3490,22 @@ Package epstopdf Info: Source file: <grafiken/drops50.eps>
 (epstopdf)                    size: 147571 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/drops50-eps-conver
 ted-to.pdf grafiken/drops50.eps>
-(epstopdf)             \includegraphics on input line 312.
+(epstopdf)             \includegraphics on input line 308.
 Package epstopdf Info: Output file is already uptodate.
 <grafiken/drops50-eps-converted-to.pdf, id=426, 468.75125pt x 718.685pt>
 File: grafiken/drops50-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/drops50-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/drops50-eps-converted-to.pdf  used on input l
-ine 312.
+ine 308.
 (pdftex.def)             Requested size: 364.19667pt x 558.3788pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 312.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 312.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 312.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 312.
  [33 <./grafiken/drops25-eps-converted-to.pdf>])
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 33.
@@ -3561,45 +3561,56 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 72.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 72.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 72.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 72.
 
+Underfull \hbox (badness 3407) in paragraph at lines 28--30
+[]\T1/ppl/m/n/12 (+20) Hille, P. (2013): ZWP Zahn-arzt Wirt-schaft Pra-xis. U
+RL []$\T1/pcr/m/n/12 https : / / epaper .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+\T1/pcr/m/n/12 zwp-[]online . info / epaper / gim / zwp / 2013 / zwp0113 / epap
+er / ausgabe .
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 71.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 71.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 71.
 [37
 
 
 
 
 ]
-Underfull \hbox (badness 2521) in paragraph at lines 87--89
+Underfull \hbox (badness 2521) in paragraph at lines 91--93
 []\T1/ppl/m/n/12 (+20) VITA (2014): Vi-ta VMK Mas-ter, Wor-king In-struc-ti-on
 s. URL []$\T1/pcr/m/n/12 https : / / mam .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 \T1/pcr/m/n/12 vita-[]zahnfabrik . com / portal / ecms _ mdb _ download . php ?
  id = 63578 &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 \T1/pcr/m/n/12 sprache = en & fallback = de & rechtsraum = &cls _ session _ id 
 = &neuste _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 []\T1/ppl/m/n/12 (+20) Zirkonzahn GmbH (2018): Zir-kon-zahn Bro-chu-re. URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 []$\T1/pcr/m/n/12 http : / / zirkonzahn . com / assets / files / brochueren /
  []
 
@@ -3643,14 +3654,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 (ZusammenfassungAusblick.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
-Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: C2A4B6F07A03315823A8FA22F05BD94C;1460.
+
+
+Package rerunfilecheck Warning: File `Masterarbeit.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Masterarbeit.out':
+(rerunfilecheck)             Before: C2A4B6F07A03315823A8FA22F05BD94C;1460
+(rerunfilecheck)             After:  0B2A9CF7E453D363FE0F2EE842CBA32C;1468.
  ) 
 Here is how much of TeX's memory you used:
- 41403 strings out of 493305
- 795055 string characters out of 3130237
- 960691 words of memory out of 3000000
- 43856 multiletter control sequences out of 15000+200000
+ 41407 strings out of 493305
+ 795105 string characters out of 3130237
+ 960717 words of memory out of 3000000
+ 43859 multiletter control sequences out of 15000+200000
  587447 words of font info for 239 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,11n,97p,10444b,1031s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3664,9 +3682,9 @@ eX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Dell/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Dell/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Dell/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Masterarbeit.pdf (43 pages, 4628922 bytes).
+Output written on Masterarbeit.pdf (43 pages, 4629270 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
  40765 words of extra memory for PDF output out of 42996 (max. 10000000)
 
