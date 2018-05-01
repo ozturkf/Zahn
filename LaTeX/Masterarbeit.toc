@@ -19,6 +19,6 @@
 \contentsline {section}{\numberline {10.4}Proximity}{26}{section.10.4}
 \contentsline {section}{\numberline {10.5}Printing Angle}{30}{section.10.5}
 \contentsline {section}{\numberline {10.6}Singular Spot Characteristics}{31}{section.10.6}
-\contentsline {chapter}{\numberline {11}Summary and Outlook}{35}{chapter.11}
-\contentsline {chapter}{\nonumberline Bibliography}{37}{chapter*.23}
-\contentsline {chapter}{\nonumberline Figure List}{39}{chapter*.24}
+\contentsline {chapter}{\numberline {11}Summary and Outlook}{38}{chapter.11}
+\contentsline {chapter}{\nonumberline Bibliography}{40}{chapter*.23}
+\contentsline {chapter}{\nonumberline Figure List}{42}{chapter*.24}

@@ -272,7 +272,8 @@ The lines were generated using 25 nL droplets with a drop density of 50 drops pe
 \section{Singular Spot Characteristics}
 
 Since the efforts to determine the characteristics via continuous lines did not provide conclusive results because of the ink diffusion in side the porous material, discontinuous, isolated imprints are required as a further experiment. 8 Spots are to be printed with an equidistant placement. The distances between the spots are 8 mm which is beyond the diffusion range of the relative ink amounts. 25 nL drops and 50 nL drops are deployed on two different specimen to observe the effect of the droplet size depending on the total ink volume. 
-The drops are expected to have a high color intensity in the middle That middle point is going to be the center of the Gaussian distribution.The points with an equal distance from the middle are supposed to present a point symmetrically identical color intensity.
+
+The drops are expected to have a high color intensity in the middle. That middle point is going to be the center of the Gaussian distribution. The points with an equal distance from the middle are supposed to present a point symmetrically identical color intensity.
 
 \bigskip
 
@@ -285,11 +286,17 @@ The drops are expected to have a high color intensity in the middle That middle 
 
 \bigskip
 
-In order to inspect the Gaussian distributions of ink in cases of different total ink amounts and different drop sizes 8 spots are printed using drops with volumes of 25 nL and 50 nL. The total ink volumes for the spots on each plate are identical and equal to 200 nL, 400nL, 800nL, 1200 nL, 1600 nL, 2000 nL, 2400 nL and 2800 nL.
+The Figure \ref{fig:psfprint} presents both of the printed zirconia plates before the sintering process combined with additional tables to sort the properties of each printed spot in a well defined manner. 
+
+In order to inspect the Gaussian distributions of the ink intensities in cases of different total ink amounts and different drop sizes 8 spots are printed using drops with volumes of 25 nL and 50 nL. The total ink volumes for the spots on each plate are identical and equal to 200 nL, 400 nL, 800 nL, 1200 nL, 1600 nL, 2000 nL, 2400 nL and 2800 nL.
 
 The results of this experiment are necessary for the reverse calculation of the required ink amount. Depending on the calculations a map can be generated for the amount of drops and target positions to deploy these drop, in order to acquire a desired shade distribution as an outcome.  
 
+The lack of specific color sampling devices, channeled the color determination process to a software solution. After the sintering process, the plates were laid on a homogeneous light source with a constant output level of 570 nits. The color distribution observed on the front side of the plates was captured using a high resolution camera. The captured image is processed utilizing the image processing toolbox of MATLAB. What important was, that the colors were not drifted out of scale during the editing processes which would make all of the results useless for further calculations. In order to increase the global contrast histogram equalization is conducted. It works like Fourier transform. The intensities of different wavelengths in the image are analyzed. The interesting part of the wavelength spectrum is cropped and distributed over the whole visible spectrum via linear scaling. This process makes it easier to distinguish between the slightest color changes. Then the image is converted from an RGB image to a gray scale one, since the intensities of the 3 colors are not individually relevant to the purpose of the experiment. 
 
+After this point, the darkness of each pixel presents its color intensity. Since the image contains a region which is printed beyond the maximum saturation level, the pixel with the highest intensity can be used for calibrations purposes as a dental shade of A3.5. Calibrating the other end of the spectrum for the lowest intensity is not such a straightforward calculation. Each line of the image actually has a slight different illumination because of the irregularities on the edges of the zirconia plate or even some defects on the  plate like curved surfaces due to sintering process or broken regions.
+
+One example to such defects can be observed in the Figure \ref{fig:drops25} on the false colored intensity image positioned on the left side. Just below the second spot from the top are lots of pixels contaminated with intensity noise. The reason for that is a crack in the plate, along the x-axis, at the position y=49. Since the wall of the plate at breaking line is not parallel to the XZ-Plane and does not have planar surface, the light guided into the material is not homogeneous either. 
 \bigskip
 
 \begin{figure}[H]
@@ -301,6 +308,12 @@ The results of this experiment are necessary for the reverse calculation of the 
 
 \bigskip 
 
+Due to the strange characteristics of the porous zirconia medium, a proportional intensity change cannot be observed along increasing total ink amounts. As a reminder, it should be said that the printing process is realized using an ink with a calibrated shade of A3.5. This means if the zirconia plate is sunk into the ink completely and hold in the ink for at least 10 seconds so that there is relatively no air left in the porous medium, the end color shade of the zirconia would be an A3.5. This global void filling condition can also be fulfilled locally with some unintentional lateral diffusion occurrence. 
+
+There are two parameters one should pay attention to on the plots positioned on the right side of the Figure \ref{fig:drops25}. One of them is the shade the other one is the Full Width Half Maximum (FWHM) measurement of the spots. Each plot belongs to the line on the false colored image, on the same height with the plot. The applied amount of ink on the first spot is 200 nL. Even though the plot has a global maximum around A1.75, the results are not trustworthy, because of the noise level on the line. The areas close to the edges reach easily 50\% of the global maximum which is a sign of high noise and is caused by extremely low amount of ink applied. 
+
+The spots with total ink amounts of 1600 nL and 2000 nL present the same FWHM value which is equal to 3.5mm. The 1600 nL total ink amount brings the graph just below the shade A3.5, but the total ink amount 2000 nL reaches the shade A3.5 with a constant level plateau. This means 2000 nL is the critical value for full saturation under lateral diffusion conditions. A higher amount of ink causes only a proportionally larger FWHM. For 25nL Drops it can be said that different shades can be obtained using an ink with the shade A4.0 and a brightener with a total amount of 2000 nL on each spot.
+
 \bigskip
 
 \begin{figure}[H]
@@ -311,4 +324,10 @@ The results of this experiment are necessary for the reverse calculation of the 
 \end{figure} 
 
 \bigskip 
-
+ The same experiment is repeated for the drop size of 50 nL with the half amount of drops to achieve the same total ink amount. The only practical difference between the experiments is the diameter of the first contact circle. When the first wetting area is larger the ink tries to impregnate the zirconia through a larger area which means the lateral diffusion is supposed to be complete quite sooner and the FWHM diameters are to be slightly larger than the ones belonging to the 25 nL droplets. It is hard to conduct a comparative evaluation for the first four spots from the top because of the high noise generated by the crack in the first specimen. 
+ 
+ The spot created with 1600 nL ink has a lower shade level in comparison because of the higher ability of the ink to diffuse. If the initial contact area is larger, the ink is transfered beneath this larger area into the zirconia material. After the impregnation the diffusion can happen beginning from a comparatively larger area which means that the ink can reach a larger area. Since the ink supposed to be in the middle of the printed spot is distributed more to the outer circles, the intensity of the 1600 nL spot is lower for 50 nL drops in comparison to 25 nL ones.
+  
+ The total ink amount of 2000 nL is again enough for the full saturation of the pores with the ink. The predefined shade of A3.5 is reached with a large plateau as a sign for the saturated spot imprint with an FWHM of 3.2 mm. The FWHM values for the ink amounts 2000 nL, 2400nL and 2800 nL in the first experiment were, as it can be seen in Figure \ref{fig:drops25}, 3.5 mm, 4.2 mm and 4.4 mm. Those values are 3.9 mm, 4.2 mm and 4.4 mm in the second experiment. The fact that the last two diameters are exactly the same for both of the drop sizes shows that an amount of total ink this high is significantly over the saturation limit of the medium. 
+ 
+ There is another important result one can conclude out of these two samples. If the printing process is done with a color shade of A4.0 and the target shade is A4.0 the whole void proportion of the material has  to be filled with the ink for the shade A4.0. Whether the drops have a volume of 25 nL or 50 nL doesn't change the fact that the material has to be filled up regionally and this will cause inevitable  lateral diffusions. Thus it is not quite likely to obtain A4.0 spots as tiny as A1.0 spots. Because in the upper plots of the Figures \ref{fig:drops25} and \ref{fig:drops50}it can be observed that the spots have shades below A1.75 and the FWHM values are less than or equal to the half of the saturated A4.0 generating spot diameters.
