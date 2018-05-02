@@ -40,12 +40,21 @@ The inks and the brightener are continuously fed into a rotary distribution valv
 
 \bigskip
 
-A serial communication between the controller and the rotary valve arranges the position of the rotary valve and the duration to hold on in that position. The required mixture is dosed and pulled by the droplet ejector and deployed through the nozzle, driven by the pressure difference between the ink bottles at the beginning of the cycle and the atmosphere.The process of arranging the amount of the ink and brightener, creates the complex necessity of calculating the drops which are going to be required prior to the time of deployment. The amount of ink and brightener between the  of  A 3-axis table and the 2-axis nozzle holder are responsible for the coordination of the flying drops and the point on the surface of the dental crown where the drops need to land during the printing process.
+A serial communication between the microcontroller and the rotary valve controller arranges the position of the rotary valve and the duration to hold on in that position. The required mixture is dosed and pulled by the droplet ejector and deployed through the nozzle, driven by the pressure difference between the ink bottles at the beginning of the cycle and the atmosphere.The process of arranging the amount of the ink and brightener, creates the complex necessity of calculating the drops, which are going to be required, prior to the time of deployment. The amount of ink and brightener in the tube between the nozzle and rotary valve has to be quantified as drop count. Thus, it can be planned when to rotate the valve depending on the ink required at the nozzle, prior to the deployment regarding the amount of drops in the tube. 
+
+A 3-axis table and the 2-axis nozzle holder are responsible for the coordination of the flying drops and the point on the surface of the dental crown where the drops need to land during the printing process. The nozzle holder arranges the distance between the nozzle and zirconia surface. Also, the movement in the y-axis is realized by the nozzle holder. The table has one linear and two rotary axes. The linear axis realizes the movement in the x direction. The rotary axes are responsible for the rotational movements around the x and z axes. When a crown is plugged onto the table, the rotation around the x-axis arranges the tilt angle throughout the whole printing process and the continuous rotational movement around the z-axis with slight shifting in x direction makes continuous rapid printing process possible. 
+
+An easy to command control interface is an important advantage for fast and reliable conduction of the experiments. The microcontroller can be controlled via a open source routing application which can interpret G-Code or send G-Code over to the microcontroller for the interpretation process. The linear axes are to be defined as the common application as x, y and z-axes. The rotational axes can be defined as a and b-axes. The droplet generation commands can be sent over as another axis movement, e.g. the c-axis. The last missing axis in the system is responsible for the movement of the valve in the rotary distributor. A last d-axis would be responsible for the position of the valve. The code generation process can be coded utilizing MATLAB without the requirement of an extreme effort.
+
 
 \chapter{Solution Processes}
 \label{sec:Lösungsprozesse}
 The process concept is realized in three stages. Each stage depends on the previous one and cannot be proceeded to, before the previous one is completed.
 
+\bigskip
+\bigskip
+\bigskip
+\space
 \bigskip
 
 \begin{figure}[H]
@@ -56,8 +65,10 @@ The process concept is realized in three stages. Each stage depends on the previ
 \end{figure} 
 
 \bigskip
-
-
+\space
+\bigskip
+\space
+\bigskip
  First stage is finding the ink and ceramic properties, such as ink viscosity and surface tension, ceramic void fraction and ink absorption time. Depending on these experimentally acquired parameters the equations \ref{eq:InfTime} and \ref{eq:SpreadingDia} can be utilized  in the progress of the model generation for the drop deployment algorithm for an arbitrary pattern to be printed on the zirconia material. 
  
  Second stage is planned to help determine the parameters defining the printing system. It basically focuses on the settlement of drop properties and deployment metrics, which consist of drop volume, nozzle escape velocity of the drops, the optimal distance between the nozzle and zirconia surface and the angle between the drop projectile and the surface. The drop volume has to be determined as soon as possible, because it directly affects the selection of the actuator which is to be used as the drop ejector. Selection of a larger drop size means a shorter printing time. However it also means that the resolution is supposed to become lower. Due to the absorption characteristics of the zirconia material, a critical drop size is expected to cause a significant effect on the diameter of a painted spot. In other words, deploying the same amount of ink on the same spot using drops with a volume of smaller than 5 nL could give the same printed spot diameter.In comparison to the aforementioned drop volumes, using  10 or 20 nL drops to apply the same amount of ink on a single point could result with an unexpectedly larger spot size with lower central intensity. This critical drop size has to be determined, in order to proceed to the rest of the experiments.  
@@ -314,7 +325,7 @@ The calibration of the lowest intensity is made because of the mentioned reason 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{grafiken/drops25.eps}
+	\includegraphics[width=0.5\textwidth]{grafiken/drops25.eps}
 	\caption{False color representation and shade spreading analysis of the spots after sintering (printed with 25 nL drops)}
 	\label{fig:drops25}
 \end{figure} 
@@ -331,7 +342,7 @@ The spots with total ink amounts of 1600 nL and 2000 nL present the same FWHM va
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{grafiken/drops50.eps}
+	\includegraphics[width=0.5\textwidth]{grafiken/drops50.eps}
 	\caption{False color representation and shade spreading analysis of the spots after sintering (printed with 50 nL drops)}
 	\label{fig:drops50}
 \end{figure} 
