@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.23)  2 MAY 2018 14:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.23)  2 MAY 2018 17:56
 entering extended mode
 **./Masterarbeit.tex
 (Masterarbeit.tex
@@ -2041,9 +2041,9 @@ e.sty"
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
 \verbatim@out=\write3
-runsystem(echo t > "w18-test-201852846.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-2018521076.tex")...disabled (restricted).
 
-runsystem(del "w18-test-201852846.tex")...disabled (restricted).
+runsystem(del "w18-test-2018521076.tex")...disabled (restricted).
 
 
 
@@ -3170,9 +3170,9 @@ Package babel Info: Redefining ngerman shorthand "~
 <grafiken/SolutionStructure.jpg, id=294, 311.7246pt x 221.3871pt>
 File: grafiken/SolutionStructure.jpg Graphic file (type jpg)
 <use grafiken/SolutionStructure.jpg>
-Package pdftex.def Info: grafiken/SolutionStructure.jpg  used on input line 32.
+Package pdftex.def Info: grafiken/SolutionStructure.jpg  used on input line 36.
 
-(pdftex.def)             Requested size: 409.71692pt x 290.98535pt.
+(pdftex.def)             Requested size: 455.24411pt x 323.31705pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 40.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3183,193 +3183,193 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 40.
 [15
 
- <./grafiken/SolutionStructure.jpg>]
+]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
- [16]
+(babel)             in language  on input line 45.
+ [16 <./grafiken/SolutionStructure.jpg>]
 chapter 8.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 41.
+(babel)             in language  on input line 45.
 <grafiken/SolutionProcesses.jpg, id=305, 967.9362pt x 516.7305pt>
 File: grafiken/SolutionProcesses.jpg Graphic file (type jpg)
 <use grafiken/SolutionProcesses.jpg>
-Package pdftex.def Info: grafiken/SolutionProcesses.jpg  used on input line 49.
+Package pdftex.def Info: grafiken/SolutionProcesses.jpg  used on input line 53.
 
 (pdftex.def)             Requested size: 409.71692pt x 218.72841pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 64.
 [17
 
  <./grafiken/SolutionProcesses.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 78.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 78.
  [18]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 82.
  [19]
 chapter 9.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 88.
 [20
 
 ]
 chapter 10.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 84.
+(babel)             in language  on input line 88.
 <grafiken/PrototypeText.png, id=329, 395.076pt x 344.0052pt>
 File: grafiken/PrototypeText.png Graphic file (type png)
 <use grafiken/PrototypeText.png>
-Package pdftex.def Info: grafiken/PrototypeText.png  used on input line 93.
+Package pdftex.def Info: grafiken/PrototypeText.png  used on input line 97.
 (pdftex.def)             Requested size: 318.66948pt x 277.48262pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 100.
+(babel)             in language  on input line 104.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 106.
 [21
 
  <./grafiken/PrototypeText.png>]
 <grafiken/InkProps.jpg, id=337, 1090.0725pt x 695.59875pt>
 File: grafiken/InkProps.jpg Graphic file (type jpg)
 <use grafiken/InkProps.jpg>
-Package pdftex.def Info: grafiken/InkProps.jpg  used on input line 107.
+Package pdftex.def Info: grafiken/InkProps.jpg  used on input line 111.
 (pdftex.def)             Requested size: 364.19667pt x 232.39284pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 124.
+(babel)             in language  on input line 128.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 126.
+(babel)             in language  on input line 130.
  [22 <./grafiken/InkProps.jpg>]
 <grafiken/AbsorptionTime.jpg, id=345, 417.81094pt x 217.5628pt>
 File: grafiken/AbsorptionTime.jpg Graphic file (type jpg)
 <use grafiken/AbsorptionTime.jpg>
-Package pdftex.def Info: grafiken/AbsorptionTime.jpg  used on input line 155.
+Package pdftex.def Info: grafiken/AbsorptionTime.jpg  used on input line 159.
 (pdftex.def)             Requested size: 364.19667pt x 189.65656pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 159.
+(babel)             in language  on input line 163.
  [23]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 <grafiken/DropSize.jpg, id=352, 196.735pt x 401.5pt>
 File: grafiken/DropSize.jpg Graphic file (type jpg)
 <use grafiken/DropSize.jpg>
-Package pdftex.def Info: grafiken/DropSize.jpg  used on input line 170.
+Package pdftex.def Info: grafiken/DropSize.jpg  used on input line 174.
 (pdftex.def)             Requested size: 163.88815pt x 334.46405pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 179.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 179.
 
 [24 <./grafiken/AbsorptionTime.jpg>]
 <grafiken/SpotArea.jpg, id=359, 1029.8475pt x 694.84593pt>
 File: grafiken/SpotArea.jpg Graphic file (type jpg)
 <use grafiken/SpotArea.jpg>
-Package pdftex.def Info: grafiken/SpotArea.jpg  used on input line 182.
+Package pdftex.def Info: grafiken/SpotArea.jpg  used on input line 186.
 (pdftex.def)             Requested size: 455.24411pt x 307.15388pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 190.
  [25 <./grafiken/DropSize.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 195.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 195.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 196.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 196.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 196.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 196.
+(babel)             in language  on input line 200.
  [26 <./grafiken/SpotArea.jpg>]
 <grafiken/proximityprint.jpg, id=370, 1020.81375pt x 271.76532pt>
 File: grafiken/proximityprint.jpg Graphic file (type jpg)
 <use grafiken/proximityprint.jpg>
-Package pdftex.def Info: grafiken/proximityprint.jpg  used on input line 201.
+Package pdftex.def Info: grafiken/proximityprint.jpg  used on input line 205.
 (pdftex.def)             Requested size: 455.24411pt x 121.1985pt.
 <grafiken/prepostV.jpg, id=372, 1677.26625pt x 947.54pt>
 File: grafiken/prepostV.jpg Graphic file (type jpg)
 <use grafiken/prepostV.jpg>
-Package pdftex.def Info: grafiken/prepostV.jpg  used on input line 216.
+Package pdftex.def Info: grafiken/prepostV.jpg  used on input line 220.
 (pdftex.def)             Requested size: 455.24411pt x 257.16937pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 224.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 220.
+(babel)             in language  on input line 224.
  [27 <./grafiken/proximityprint.jpg>]
 Package epstopdf Info: Source file: <grafiken/vmatch.eps>
 (epstopdf)                    date: 2018-04-30 16:42:13
@@ -3379,22 +3379,22 @@ Package epstopdf Info: Source file: <grafiken/vmatch.eps>
 (epstopdf)                    size: 102812 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/vmatch-eps-convert
 ed-to.pdf grafiken/vmatch.eps>
-(epstopdf)             \includegraphics on input line 233.
+(epstopdf)             \includegraphics on input line 237.
 Package epstopdf Info: Output file is already uptodate.
 <grafiken/vmatch-eps-converted-to.pdf, id=380, 876.27374pt x 484.81125pt>
 File: grafiken/vmatch-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/vmatch-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/vmatch-eps-converted-to.pdf  used on input li
-ne 233.
+ne 237.
 (pdftex.def)             Requested size: 455.24411pt x 251.87396pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 241.
  [28 <./grafiken/prepostV.jpg>]
 Package epstopdf Info: Source file: <grafiken/vProfile.eps>
 (epstopdf)                    date: 2018-05-01 00:04:52
@@ -3404,102 +3404,104 @@ Package epstopdf Info: Source file: <grafiken/vProfile.eps>
 (epstopdf)                    size: 163372 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/vProfile-eps-conve
 rted-to.pdf grafiken/vProfile.eps>
-(epstopdf)             \includegraphics on input line 246.
+(epstopdf)             \includegraphics on input line 250.
 Package epstopdf Info: Output file is already uptodate.
 <grafiken/vProfile-eps-converted-to.pdf, id=389, 559.08875pt x 718.685pt>
 File: grafiken/vProfile-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/vProfile-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/vProfile-eps-converted-to.pdf  used on input 
-line 246.
+line 250.
 (pdftex.def)             Requested size: 455.24411pt x 585.21318pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 254.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 254.
  [29 <./grafiken/vmatch-eps-converted-to.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 258.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 254.
+(babel)             in language  on input line 258.
  [30 <./grafiken/vProfile-eps-converted-to.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 259.
+(babel)             in language  on input line 263.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 259.
+(babel)             in language  on input line 263.
 <grafiken/angleprint.jpg, id=413, 468.7695pt x 70.299pt>
 File: grafiken/angleprint.jpg Graphic file (type jpg)
 <use grafiken/angleprint.jpg>
-Package pdftex.def Info: grafiken/angleprint.jpg  used on input line 268.
+Package pdftex.def Info: grafiken/angleprint.jpg  used on input line 272.
 (pdftex.def)             Requested size: 455.24411pt x 68.27252pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 276.
  [31]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 279.
+(babel)             in language  on input line 283.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 279.
+(babel)             in language  on input line 283.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 288.
  [32 <./grafiken/angleprint.jpg>]
 <grafiken/psfprint.jpg, id=424, 835.62187pt x 393.72093pt>
 File: grafiken/psfprint.jpg Graphic file (type jpg)
 <use grafiken/psfprint.jpg>
-Package pdftex.def Info: grafiken/psfprint.jpg  used on input line 289.
+Package pdftex.def Info: grafiken/psfprint.jpg  used on input line 293.
 (pdftex.def)             Requested size: 455.24411pt x 214.50456pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 303.
+(babel)             in language  on input line 307.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 303.
+(babel)             in language  on input line 307.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 303.
+(babel)             in language  on input line 307.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 303.
+(babel)             in language  on input line 307.
  [33 <./grafiken/psfprint.jpg>]
 Package epstopdf Info: Source file: <grafiken/drops25.eps>
-(epstopdf)                    date: 2018-05-01 20:48:20
-(epstopdf)                    size: 679907 bytes
+(epstopdf)                    date: 2018-05-02 15:35:20
+(epstopdf)                    size: 497807 bytes
 (epstopdf)             Output file: <grafiken/drops25-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-01 20:49:21
-(epstopdf)                    size: 158163 bytes
+(epstopdf)                    date: 2018-05-02 17:31:28
+(epstopdf)                    size: 116703 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/drops25-eps-conver
 ted-to.pdf grafiken/drops25.eps>
-(epstopdf)             \includegraphics on input line 313.
+(epstopdf)             \includegraphics on input line 317.
 Package epstopdf Info: Output file is already uptodate.
-<grafiken/drops25-eps-converted-to.pdf, id=433, 429.605pt x 718.685pt>
+<grafiken/drops25-eps-converted-to.pdf, id=433, 264.99pt x 718.685pt>
 File: grafiken/drops25-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/drops25-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/drops25-eps-converted-to.pdf  used on input l
-ine 313.
-(pdftex.def)             Requested size: 364.19667pt x 609.2731pt.
+ine 317.
+(pdftex.def)             Requested size: 364.19667pt x 987.8166pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 321.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 321.
  [34]
+Overfull \vbox (357.6526pt too high) has occurred while \output is active []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 321.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3508,41 +3510,45 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 321.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 321.
- [35 <./grafiken/drops25-eps-converted-to.pdf>]
+
+[35 <./grafiken/drops25-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <grafiken/drops50.eps>
-(epstopdf)                    date: 2018-05-01 20:45:41
-(epstopdf)                    size: 344217 bytes
+(epstopdf)                    date: 2018-05-02 15:42:52
+(epstopdf)                    size: 280920 bytes
 (epstopdf)             Output file: <grafiken/drops50-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-05-01 20:49:22
-(epstopdf)                    size: 145789 bytes
+(epstopdf)                    date: 2018-05-02 17:31:29
+(epstopdf)                    size: 111273 bytes
 (epstopdf)             Command: <epstopdf --outfile=grafiken/drops50-eps-conver
 ted-to.pdf grafiken/drops50.eps>
-(epstopdf)             \includegraphics on input line 330.
+(epstopdf)             \includegraphics on input line 334.
 Package epstopdf Info: Output file is already uptodate.
-<grafiken/drops50-eps-converted-to.pdf, id=450, 429.605pt x 718.685pt>
+<grafiken/drops50-eps-converted-to.pdf, id=450, 264.99pt x 718.685pt>
 File: grafiken/drops50-eps-converted-to.pdf Graphic file (type pdf)
 <use grafiken/drops50-eps-converted-to.pdf>
 Package pdftex.def Info: grafiken/drops50-eps-converted-to.pdf  used on input l
-ine 330.
-(pdftex.def)             Requested size: 364.19667pt x 609.2731pt.
+ine 334.
+(pdftex.def)             Requested size: 364.19667pt x 987.8166pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 338.
  [36]
+Overfull \vbox (357.6526pt too high) has occurred while \output is active []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 338.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 337.
- [37 <./grafiken/drops50-eps-converted-to.pdf>])
+(babel)             in language  on input line 338.
+
+[37 <./grafiken/drops50-eps-converted-to.pdf>])
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3554,7 +3560,8 @@ Package babel Info: Redefining ngerman shorthand "~
  [38]
 \openout2 = `ZusammenfassungAusblick.aux'.
 
- (ZusammenfassungAusblick.tex
+
+(ZusammenfassungAusblick.tex
 chapter 11.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 10.
@@ -3696,7 +3703,7 @@ Package rerunfilecheck Info: File `Masterarbeit.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  41411 strings out of 493305
- 795133 string characters out of 3130237
+ 795134 string characters out of 3130237
  960731 words of memory out of 3000000
  43859 multiletter control sequences out of 15000+200000
  587447 words of font info for 239 fonts, out of 3000000 for 9000
@@ -3712,7 +3719,7 @@ eX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Dell/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Dell/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Dell/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Masterarbeit.pdf (47 pages, 4759294 bytes).
+Output written on Masterarbeit.pdf (47 pages, 4684200 bytes).
 PDF statistics:
  594 PDF objects out of 1000 (max. 8388607)
  114 named destinations out of 1000 (max. 500000)

@@ -23,20 +23,24 @@ One of the most important advantages is quantification of the coloring process f
 Another aspect to consider is the ink costs. Each of the ink bottles are labeled with the same price tag by the manufacturer. However, not all of the ink bottles contain a material worth the same value actually. The shades of the colors ranging from 1 to 3.5 are only diluted versions of the bottle with the shade 4.0. Buying the most concentrated tone and diluting it is here an economical solution, as it is in every other section of the industry. Also, the whole spectrum of shades can be obtained with only 4 ink bottles and a brightener by halftone printing. The required purchase variety, transportation costs, and the space requirement are all reduced with the usage of only the most saturated shades.
 
 \chapter{Solution Structure}
-The structural concept is based on the utilization of a 5-axis printing system. A basic microcontroller designed for the automation of the router systems is connected to stepper motors and encoders to control the coordinated printing processes. 4 base colors with the highest saturation levels (A, B, C and D4) are to be used with the brightener to color the dental zirconia, instead of 17 bottles consisting of 16 predefined shades plus the brightener. The amount of the brightener defines the shade of the color. Therefore, the space requirement of the machine is reduced. The inks and the brightener are continuously fed into a rotary distribution valve and are in their neutral status not flowing in any direction. As soon as the rotary valve opens the gate of any incoming pipe,the flow is permitted to the droplet ejector.  
+The structural concept is based on the utilization of a 5-axis printing system. The process to be conducted is similar to NC-Milling or 3D printing. A basic microcontroller designed for the automation of the router systems can be connected to stepper motors and encoders to control the coordinated movements of the axis alongside the droplet generation. Since the shooting target is extremely precise, the system should support real time motion control. A point to point routing system is not satisfactory for printing on a 3D surface with microdrops deployed at frequencies higher than 1000Hz.
+
+4 base colors with the highest saturation levels A, B, C and D4 are to be used with the brightener to color the dental zirconia, instead of 17 bottles consisting of 16 predefined shades plus the brightener. The amount of the brightener defines the shade of the color. Therefore, the space requirement of the machine is reduced. The zirconia has to be exposed to the same amount of liquid. Otherwise, the observed crown shade can seem unnatural. Because of the translucency of natural tooth and zirconia the depth of the reflected light is as important as the color shade. The printing nozzle has to be able to switch between the ink and the brightener quickly, in order to supply the ink brightener mixture without slowing down the printing process. 
+
+The inks and the brightener are continuously fed into a rotary distribution valve and are in their neutral status not flowing in any direction. As soon as the rotary valve opens the gate of any incoming pipe,the flow is permitted to the droplet ejector via the air pressure channel connected to the back of the ink and brightener bottles.  
 
 \bigskip
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{grafiken/SolutionStructure.jpg}
+	\includegraphics[width=1\textwidth]{grafiken/SolutionStructure.jpg}
 	\caption{Solution Structure}
 	\label{fig:SolutionStructure}
 \end{figure} 
 
 \bigskip
 
-A serial communication between the controller and the rotary valve arranges the position of the rotary valve and the duration to hold on in that position. The required mixture is dosed and pulled by the droplet ejector and deployed through the nozzle, driven by the pressure difference between the ink bottles at the beginning of the cycle and the atmosphere. A 3-axis table and the 2-axis nozzle holder are responsible for the coordination of the flying drops and the point on the surface of the dental crown where the drops need to land during the printing process.
+A serial communication between the controller and the rotary valve arranges the position of the rotary valve and the duration to hold on in that position. The required mixture is dosed and pulled by the droplet ejector and deployed through the nozzle, driven by the pressure difference between the ink bottles at the beginning of the cycle and the atmosphere.The process of arranging the amount of the ink and brightener, creates the complex necessity of calculating the drops which are going to be required prior to the time of deployment. The amount of ink and brightener between the  of  A 3-axis table and the 2-axis nozzle holder are responsible for the coordination of the flying drops and the point on the surface of the dental crown where the drops need to land during the printing process.
 
 \chapter{Solution Processes}
 \label{sec:Lösungsprozesse}
