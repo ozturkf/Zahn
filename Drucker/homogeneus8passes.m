@@ -1,4 +1,4 @@
-clear;clc; close all;
+clear; clc; close all;
 passes=2;
 width=10;
 depth=10;
